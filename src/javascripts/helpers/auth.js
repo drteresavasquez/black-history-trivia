@@ -11,7 +11,6 @@ const checkLoginStatus = () => {
     if (user) {
       // person is logged in do something...
       logoutButton();
-      console.warn(firebase.auth().currentUser.uid);
       userData(user); // checks for new user
     } else {
       // person is NOT logged in
