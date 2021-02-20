@@ -2,6 +2,7 @@ import firebase from 'firebase/app';
 import 'firebase/auth';
 import loginButton from '../components/loginButton';
 import logoutButton from '../components/logoutButton';
+import loginScreen from '../views/loginScreen';
 import firebaseConfig from './apiKeys';
 import userData from './data/userData';
 
@@ -14,6 +15,7 @@ const checkLoginStatus = () => {
       userData(user); // checks for new user
     } else {
       // person is NOT logged in
+      loginScreen(); // load login screen
       loginButton();
     }
   });
