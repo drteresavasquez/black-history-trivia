@@ -1,0 +1,692 @@
+{
+  "-MTx6jopRIycAl3_yO7E": {
+    "id": "-MTx6jopRIycAl3_yO7E",
+    "cat_id": "5",
+    "question": "What war led Colin Powell to conclude that an army should not enter into combat unless it had a clear objective? ",
+    "ans_1": "Vietnam War",
+    "ans_2": "World War II",
+    "ans_3": "World War I",
+    "moreInfo": "https://en.wikipedia.org/wiki/Colin_Powell",
+    "point_value": 10
+  },
+  "-MTx6jorDJQuZOi5kicV": {
+    "id": "-MTx6jorDJQuZOi5kicV",
+    "cat_id": "5",
+    "question": "In 1942, what branch of the U.S. armed forces became the last to admit black people?",
+    "ans_1": "U.S. Marine Corps",
+    "ans_2": "U.S. Navy",
+    "ans_3": "U.S. Air Force",
+    "moreInfo": "https://en.wikipedia.org/wiki/Racial_segregation_in_the_United_States_Armed_Forces",
+    "point_value": 10
+  },
+  "-MTx6jou2eFuQotDl0h_": {
+    "id": "-MTx6jou2eFuQotDl0h_",
+    "cat_id": "5",
+    "question": "Inducted into the Kentucky Commission on Human Rights Hall of Fame in 2005, Robert Coleman was a veteran of what branch of the U.S. armed services? ",
+    "ans_1": "U.S. Air Force",
+    "ans_2": "U.S. Marine Corps",
+    "ans_3": "U.S. Navy",
+    "moreInfo": "https://nkaa.uky.edu/nkaa/items/show/1587#:~:text=Coleman%20was%20a%20city%20commissioner,Human%20Rights%20Hall%20of%20Fame.",
+    "point_value": 10
+  },
+  "-MTx6joyBNnjMhicJcPB": {
+    "id": "-MTx6joyBNnjMhicJcPB",
+    "cat_id": "5",
+    "question": "Before the end of World War I, more than 4,000 black women  had enlisted in the Army to serve in support roles. They were known collectively as what? ",
+    "ans_1": "The Women‟s Army Corps (or WAC)",
+    "ans_2": "The Women‟s Marine Corps (or WMC)",
+    "ans_3": "The Women‟s Navy Corps (or WNC)",
+    "moreInfo": "https://www.womenshistory.org/exhibits/womens-army-corps-female-soldiers-wwii",
+    "point_value": 10
+  },
+  "-MTx6jp0miGzZ2WPEwJp": {
+    "id": "-MTx6jp0miGzZ2WPEwJp",
+    "cat_id": "5",
+    "question": "Born in Kentucky, Carl Maxie Brashear, the first African American Navy master diver, lost the lower part of his left leg in an accident on what naval ship? ",
+    "ans_1": "The USS Hoist",
+    "ans_2": "The USA Hoist",
+    "ans_3": "The SSA Hoist",
+    "moreInfo": "https://en.wikipedia.org/wiki/Carl_Brashear",
+    "point_value": 10
+  },
+  "-MTx6jpHLbj2R6eGtWiX": {
+    "id": "-MTx6jpHLbj2R6eGtWiX",
+    "cat_id": "6",
+    "question": "St. Elmo Brady, the first African American to earn a Ph.D. in chemistry in America, received his degree from what school in 1916? ",
+    "ans_1": "University of Illinois",
+    "ans_2": "University of Virgina",
+    "ans_3": "University of Kentucky",
+    "moreInfo": "https://www.acs.org/content/acs/en/education/whatischemistry/landmarks/st-elmo-brady.html",
+    "point_value": 10
+  },
+  "-MTx6jpKRfKL85qGnc0X": {
+    "id": "-MTx6jpKRfKL85qGnc0X",
+    "cat_id": "6",
+    "question": "Prior to Joseph Lee‟s bread making invention, how many people were needed to produce the same amount of loaves per day?   ",
+    "ans_1": "Twelve",
+    "ans_2": "Twenty",
+    "ans_3": "Five",
+    "moreInfo": "https://kentakepage.com/joseph-lee-the-bread-maker-inventor/",
+    "point_value": 10
+  },
+  "-MTx6jpMAlpoO5E3bH-U": {
+    "id": "-MTx6jpMAlpoO5E3bH-U",
+    "cat_id": "6",
+    "question": "Where was George Washington Carver‟s laboratory? ",
+    "ans_1": "Tuskegee Institute, Alabama",
+    "ans_2": "Birmingham–Southern College, Alabama",
+    "ans_3": "Miles College, Alabama",
+    "moreInfo": "https://www.history.com/topics/black-history/george-washington-carver#:~:text=George%20Washington%20Carver%20was%20an,)%2C%20sweet%20potatoes%20and%20soybeans.",
+    "point_value": 10
+  },
+  "-MTx6jogYKGxq5nNXhdE": {
+    "id": "-MTx6jogYKGxq5nNXhdE",
+    "cat_id": "5",
+    "question": "What was the first war in which blacks served in every branch of the U.S. armed forces?",
+    "ans_1": "World War II",
+    "ans_2": "World War I",
+    "ans_3": "Vietnam War",
+    "moreInfo": "https://www.pbs.org/wnet/african-americans-many-rivers-to-cross/history/what-was-black-americas-double-war/",
+    "point_value": 10
+  },
+  "-MTx6joiQp7PTTm4Y6gB": {
+    "id": "-MTx6joiQp7PTTm4Y6gB",
+    "cat_id": "5",
+    "question": "President Jimmy Carter honored the 761st Tank Battalion, an all black unit, for fighting in what war? ",
+    "ans_1": "World War II",
+    "ans_2": "World War I",
+    "ans_3": "Vietnam War",
+    "moreInfo": "https://en.wikipedia.org/wiki/761st_Tank_Battalion_(United_States)",
+    "point_value": 10
+  },
+  "-MTx6jokbUJXcF5es9zp": {
+    "id": "-MTx6jokbUJXcF5es9zp",
+    "cat_id": "5",
+    "question": "In May 1941, the 758th Tank Battalion was the first African American tank battalion to fight in which war? ",
+    "ans_1": "World War II",
+    "ans_2": "World War I",
+    "ans_3": "Vietnam War",
+    "moreInfo": "https://en.wikipedia.org/wiki/761st_Tank_Battalion_(United_States)",
+    "point_value": 10
+  },
+  "-MTx6jonri06Fg4Ep4U7": {
+    "id": "-MTx6jonri06Fg4Ep4U7",
+    "cat_id": "5",
+    "question": "After his service in what war was Christian County native Elder Watson Diggs instrumental in having the Indiana constitution amended to permit Negro enlistment in the Indiana National Guard? ",
+    "ans_1": "World War I",
+    "ans_2": "World War II",
+    "ans_3": "Vietnam War",
+    "moreInfo": "https://nupepedia.fandom.com/wiki/Elder_Watson_Diggs",
+    "point_value": 10
+  },
+  "-MTx6jpA34JvRv8S-EZ3": {
+    "id": "-MTx6jpA34JvRv8S-EZ3",
+    "cat_id": "6",
+    "question": "What system did Robert Shurney develop that was used aboard a Skylab space mission?",
+    "ans_1": "Waste management system",
+    "ans_2": "Food hydration system",
+    "ans_3": "Air filtration system",
+    "moreInfo": "https://www.nasa.gov/centers/marshall/history/dr-robert-shurney.html",
+    "point_value": 10
+  },
+  "-MTx6jobDzTjxe3udc70": {
+    "id": "-MTx6jobDzTjxe3udc70",
+    "cat_id": "4",
+    "question": "How did Denmark Vessey gain his freedom in 1799? ",
+    "ans_1": "Won money in a lottery and purchased his freedom",
+    "ans_2": "He ran away and made it to the North",
+    "ans_3": "He didn't. He got caught helping others escape.",
+    "moreInfo": "https://en.wikipedia.org/wiki/Denmark_Vesey",
+    "point_value": 10
+  },
+  "-MTx6jodNGoWyEe1lr9e": {
+    "id": "-MTx6jodNGoWyEe1lr9e",
+    "cat_id": "4",
+    "question": "Where did the “sit-in” movement begin? ",
+    "ans_1": "Woolworth‟s store in Greensboro, North Carolina",
+    "ans_2": "Woolworth‟s store in Atlanta, Georga",
+    "ans_3": "Woolworth‟s store in Nashville, Tennessee",
+    "moreInfo": "https://en.wikipedia.org/wiki/Greensboro_sit-ins#:~:text=The%20Greensboro%20sit%2Dins%20were,of%20racial%20segregation%20in%20the",
+    "point_value": 10
+  },
+  "-MTx6jnebHLAuUAKPBch": {
+    "id": "-MTx6jnebHLAuUAKPBch",
+    "cat_id": "2",
+    "question": "What was the full name of Hopkinsville native Ted Poston, New York Post reporter/author?",
+    "ans_1": "Theodore Roosevelt Augustus Major Poston",
+    "ans_2": "Theodore Robertson Austin Minor Poston",
+    "ans_3": "Theodore Roman Arminda Maynard Poston",
+    "moreInfo": "https://nkaa.uky.edu/nkaa/items/show/714#:~:text=Poston%20was%20known%20as%20Ted,race%20disputes%20in%20the%20South.&text=He%20was%20the%20brother%20of%20journalists%20Robert%20and%20Ulysses%20S.",
+    "point_value": 10
+  },
+  "-MTx6jnhfQipWBpyMoLL": {
+    "id": "-MTx6jnhfQipWBpyMoLL",
+    "cat_id": "2",
+    "question": "What colonial era crop had a significant shortage of workers which demanded a large number of Africans to be imported to the Americas? ",
+    "ans_1": "Tobacco",
+    "ans_2": "Corn",
+    "ans_3": "Cotton",
+    "moreInfo": "https://courses.lumenlearning.com/boundless-ushistory/chapter/slavery-in-the-colonies/#:~:text=Tobacco%20required%20intensive%20labor%20for,turn%20toward%20African%20slave%20labor.",
+    "point_value": 10
+  },
+  "-MTx6jo2L4VHLgf6VbpY": {
+    "id": "-MTx6jo2L4VHLgf6VbpY",
+    "cat_id": "3",
+    "question": "Classic blues singers, Gertrude “Ma” Rainey, Bessie Smith, Mamie Smith, and Alberta Hunter, were women who came out of what performance tradition? ",
+    "ans_1": "Vaudeville",
+    "ans_2": "Burlesque",
+    "ans_3": "Cabaret",
+    "moreInfo": "https://en.wikipedia.org/wiki/Vaudeville",
+    "point_value": 10
+  },
+  "-MTx6jo8cJaLlDa6vBti": {
+    "id": "-MTx6jo8cJaLlDa6vBti",
+    "cat_id": "3",
+    "question": "In 2001, for what film did Denzel Washington become the second African American man to win an Academy Award for Best Actor? ",
+    "ans_1": "Training Day",
+    "ans_2": "Malcom X",
+    "ans_3": "Flight",
+    "moreInfo": "https://en.wikipedia.org/wiki/Training_Day",
+    "point_value": 10
+  },
+  "-MTx6joBxYuT60s7j7uX": {
+    "id": "-MTx6joBxYuT60s7j7uX",
+    "cat_id": "3",
+    "question": "Harry Belafonte became the first black person to receive an Emmy for what show in 1959?",
+    "ans_1": "Tonight with Belafonte",
+    "ans_2": "Odds Against Tomorrow",
+    "ans_3": "Buck and the Preacher",
+    "moreInfo": "https://en.wikipedia.org/wiki/Harry_Belafonte",
+    "point_value": 10
+  },
+  "-MTx6joEPE1Nd4s90YvI": {
+    "id": "-MTx6joEPE1Nd4s90YvI",
+    "cat_id": "3",
+    "question": "The Guinness Book of World Records lists what Michael Jackson album as the best selling album of all times? ",
+    "ans_1": "Thriller",
+    "ans_2": "Dangerous",
+    "ans_3": "Bad",
+    "moreInfo": "https://www.michaeljackson.com/",
+    "point_value": 10
+  },
+  "-MTx6joG2PyN11PhmRm5": {
+    "id": "-MTx6joG2PyN11PhmRm5",
+    "cat_id": "4",
+    "question": "What did William L. Still organize in 1880 for Black youth?",
+    "ans_1": "YMCA",
+    "ans_2": "YWCA",
+    "ans_3": "YPCA",
+    "moreInfo": "https://en.wikipedia.org/wiki/William_Still",
+    "point_value": 10
+  },
+  "-MTx6jpPLvsLBAi04YdE": {
+    "id": "-MTx6jpPLvsLBAi04YdE",
+    "cat_id": "6",
+    "question": "These black soldiers were trained to become pilots in World War II. They were mostly assigned to Italy where they destroyed enemy planes. Who were they? ",
+    "ans_1": "Tuskegee Airmen",
+    "ans_2": "Atlanta Airmen",
+    "ans_3": "Birmingham Airmen",
+    "moreInfo": "https://www.history.com/topics/world-war-ii/tuskegee-airmen",
+    "point_value": 10
+  },
+  "-MTx6jpRjJYM6mEPuLyG": {
+    "id": "-MTx6jpRjJYM6mEPuLyG",
+    "cat_id": "7",
+    "question": "What was the name of Wilma Rudolph‟s relay team, which finished first at the 1960 Olympics? ",
+    "ans_1": "Tennessee Tigerbelles",
+    "ans_2": "Black Buffalos",
+    "ans_3": "Thunder Gods",
+    "moreInfo": "https://www.theguardian.com/sport/blog/2016/sep/30/ed-temple-tennessee-tigerbelles-us-sprint-wilma-rudolph",
+    "point_value": 10
+  },
+  "-MTx6jn2S9Nv41sQ--Ff": {
+    "id": "-MTx6jn2S9Nv41sQ--Ff",
+    "cat_id": "1",
+    "question": "Along the Gulf Coast of Louisiana, what type of music is played with the accordion?",
+    "ans_1": "Zydeco",
+    "ans_2": "Jazz",
+    "ans_3": "Blues",
+    "moreInfo": "https://www.kennedy-center.org/education/resources-for-educators/classroom-resources/media-and-interactives/media/music/gulf-coast-highway/#:~:text=Zydeco%20Music%3A%20Geno%20Delafose&text=La%20La%20party%20music%E2%80%9A%20characterized,jazz%20to%20the%20party%20mix",
+    "point_value": 10
+  },
+  "-MTx6jn5Ge5IpkTqCtp_": {
+    "id": "-MTx6jn5Ge5IpkTqCtp_",
+    "cat_id": "1",
+    "question": "Who wrote \"Their Eyes Were Watching God\" ?",
+    "ans_1": "Zora Neale Hurston",
+    "ans_2": "Wynton Marsalis",
+    "ans_3": "William Wells Brown",
+    "moreInfo": "https://www.zoranealehurston.com/books/their-eyes-were-watching-god/",
+    "point_value": 10
+  },
+  "-MTx6jn72qUznkTh0Etx": {
+    "id": "-MTx6jn72qUznkTh0Etx",
+    "cat_id": "1",
+    "question": "Which one of composer/pianist Anthony Davis' operas premiered in Philadelphia in 1985 and was performed by the New York City Opera in 1986?",
+    "ans_1": "X: The Life and Times of Malcolm X",
+    "ans_2": "Treemonisha",
+    "ans_3": "De Organizer",
+    "moreInfo": "https://operawire.com/opera-profile-anthony-davis-x-the-life-and-times-of-malcolm-x/",
+    "point_value": 10
+  },
+  "-MTx6jn9h-AVSamn1Bpx": {
+    "id": "-MTx6jn9h-AVSamn1Bpx",
+    "cat_id": "1",
+    "question": "Since 1987, who has held the position of director of jazz at Lincoln Center for the Performing Arts in New York City?",
+    "ans_1": "Wynton Marsalis",
+    "ans_2": "William Christopher Handy",
+    "ans_3": "William Venoid Banks",
+    "moreInfo": "https://www.jazz.org/JLCO/wynton-marsalis/#:~:text=Wynton%20Marsalis%20is%20the%20managing,Blakey%20and%20the%20Jazz%20Messengers",
+    "point_value": 10
+  },
+  "-MTx6jnC0qtpedIcDK-u": {
+    "id": "-MTx6jnC0qtpedIcDK-u",
+    "cat_id": "1",
+    "question": "Of what profession were Langston Hughes, Zora Neale Hurston, and Countee Cullen, major contributors to the Harlem Renaissance?",
+    "ans_1": "Writers",
+    "ans_2": "Performers",
+    "ans_3": "Speakers",
+    "moreInfo": "https://www.washingtonpost.com/entertainment/books/a-look-at-what-brought-zora-neale-hurston-and-langston-hughes-together-and-what-tore-them-apart/2019/04/03/4d37aac4-517f-11e9-88a1-ed346f0ec94f_story.html",
+    "point_value": 10
+  },
+  "-MTx6jnEJSARqxBR3_dn": {
+    "id": "-MTx6jnEJSARqxBR3_dn",
+    "cat_id": "1",
+    "question": "Who wrote Clotel , or The President’s Daughter , the first published novel by a Black American in 1833?",
+    "ans_1": "William Wells Brown",
+    "ans_2": "Whoopi Goldberg",
+    "ans_3": "Wynton Marsalis",
+    "moreInfo": "https://docsouth.unc.edu/southlit/brown/summary.html",
+    "point_value": 10
+  },
+  "-MTx6jnHp46rEdfNbU4A": {
+    "id": "-MTx6jnHp46rEdfNbU4A",
+    "cat_id": "1",
+    "question": "Who published The Escape , the first play written by a Black American?",
+    "ans_1": "William Wells Brown",
+    "ans_2": "William Christopher Handy",
+    "ans_3": "William Alexander Chambers",
+    "moreInfo": "https://www.loa.org/news-and-views/1378-_the-escape_-first-published-play-by-an-african-american-leaps-to-the-new-york-city-stage",
+    "point_value": 10
+  },
+  "-MTx6jnJIruBFd3i7w1D": {
+    "id": "-MTx6jnJIruBFd3i7w1D",
+    "cat_id": "1",
+    "question": "What is the given name of blues great W.C. Handy?",
+    "ans_1": "William Christopher Handy",
+    "ans_2": "William Chamber Handy",
+    "ans_3": "William Charles Handy",
+    "moreInfo": "https://www.britannica.com/biography/W-C-Handy",
+    "point_value": 10
+  },
+  "-MTx6jnLqRrYLTfxnbMD": {
+    "id": "-MTx6jnLqRrYLTfxnbMD",
+    "cat_id": "1",
+    "question": "What aspiring fiction writer, journalist, and Hopkinsville native, served as editor of three African American weeklies: the Indianapolis Recorder , the Freeman , and the Indianapolis Ledger ?",
+    "ans_1": "William Alexander Chambers",
+    "ans_2": "William Venoid Banks",
+    "ans_3": "Ted Poston",
+    "moreInfo": "https://indianahistory.org/wp-content/uploads/william-a-chambers-collection-1971-1985.pdf",
+    "point_value": 10
+  },
+  "-MTx6jnOb7lbbAFTdJmr": {
+    "id": "-MTx6jnOb7lbbAFTdJmr",
+    "cat_id": "1",
+    "question": "Nat Love wrote what kind of stories?",
+    "ans_1": "Westerns",
+    "ans_2": "Horror",
+    "ans_3": "Non-Fiction",
+    "moreInfo": "https://www.kshs.org/kansapedia/nat-love/12135",
+    "point_value": 10
+  },
+  "-MTx6jnQZkTSM2-_U9xR": {
+    "id": "-MTx6jnQZkTSM2-_U9xR",
+    "cat_id": "2",
+    "question": "In 1975, who became the first African American to own and operate a television station in the United States, WGPR-TV in Detroit, MI?",
+    "ans_1": "William Venoid Banks",
+    "ans_2": "Walton N. Smith",
+    "ans_3": "Wyatt Tee Walker",
+    "moreInfo": "https://www.encyclopedia.com/education/news-wires-white-papers-and-books/banks-william-1903-1985",
+    "point_value": 10
+  },
+  "-MTx6jnSC_ySXSXelDbP": {
+    "id": "-MTx6jnSC_ySXSXelDbP",
+    "cat_id": "2",
+    "question": "Born in Geneva, KY, who became the owner of the first black radio station in Detroit, in 1964?",
+    "ans_1": "William Venoid Banks",
+    "ans_2": "Wilson Hull",
+    "ans_3": "Wyomia Tyus",
+    "moreInfo": "https://www.encyclopedia.com/education/news-wires-white-papers-and-books/banks-william-1903-1985",
+    "point_value": 10
+  },
+  "-MTx6jnVSry_47QH3T5g": {
+    "id": "-MTx6jnVSry_47QH3T5g",
+    "cat_id": "2",
+    "question": "Who was a reporter for the New York Post and regarded as journalism‟s “Father of Minorities”? ",
+    "ans_1": "Ted Poston",
+    "ans_2": "William Venoid Banks",
+    "ans_3": "William J. Seymour",
+    "moreInfo": "https://www.blackpast.org/african-american-history/poston-ted-1906-1974/",
+    "point_value": 10
+  },
+  "-MTx6jnXJbl5EiWwmbc3": {
+    "id": "-MTx6jnXJbl5EiWwmbc3",
+    "cat_id": "2",
+    "question": "In 1917 A. Philip Randolph and Chandler Owen founded a radical monthly magazine called what? ",
+    "ans_1": "The Messenger",
+    "ans_2": "The Crisis",
+    "ans_3": "Negro Digest",
+    "moreInfo": "https://www.blackpast.org/african-american-history/messenger-1917-1928/",
+    "point_value": 10
+  },
+  "-MTx6jn_NUqMDckNfTYa": {
+    "id": "-MTx6jn_NUqMDckNfTYa",
+    "cat_id": "2",
+    "question": "While in New York, Ulysses Poston created what daily African American newspapers? ",
+    "ans_1": "The Negro World and The New York Contender",
+    "ans_2": "The New York Age and The New York Defender",
+    "ans_3": "The Negro Bee and The New York Star",
+    "moreInfo": "https://nkaa.uky.edu/nkaa/items/show/713",
+    "point_value": 10
+  },
+  "-MTx6jnbqiCovm3sOxjF": {
+    "id": "-MTx6jnbqiCovm3sOxjF",
+    "cat_id": "2",
+    "question": "What was the name of the enterprise Barney Ford formed in Nicaragua? ",
+    "ans_1": "The United States Hotel and Restaurant",
+    "ans_2": "The United States Airport and Casino",
+    "ans_3": "The United States Jazz and Blues Club",
+    "moreInfo": "https://coloradoencyclopedia.org/article/barney-ford",
+    "point_value": 10
+  },
+  "-MTx6jp5RjOwike3P_t6": {
+    "id": "-MTx6jp5RjOwike3P_t6",
+    "cat_id": "6",
+    "question": "In 1803 the Lewis and Clark expedition explored the Louisiana Territory. Which of the two brought along his slave? Name the slave. ",
+    "ans_1": "William Clark. He took his slave, York.",
+    "ans_2": "Meriwether Lewis. He took his slave, York.",
+    "ans_3": "Meriwether Lewis. He took his slave, Charlie.",
+    "moreInfo": "https://www.smithsonianmag.com/history/york-explored-west-lewis-and-clark-his-freedom-wouldnt-come-until-decades-later-180968427/",
+    "point_value": 10
+  },
+  "-MTx6jnjkRk_THgNJC0D": {
+    "id": "-MTx6jnjkRk_THgNJC0D",
+    "cat_id": "2",
+    "question": "Who was the first African American appointed to the executive board of the Hopkinsville Chamber of Commerce and also the first to chair the Area Development District in Kentucky? ",
+    "ans_1": "Walton N. Smith",
+    "ans_2": "Ted Poston",
+    "ans_3": "William Wells Brown",
+    "moreInfo": "https://nkaa.uky.edu/nkaa/items/show/1164",
+    "point_value": 10
+  },
+  "-MTx6jnmpucVbJbcpb-y": {
+    "id": "-MTx6jnmpucVbJbcpb-y",
+    "cat_id": "2",
+    "question": "Who built San Francisco‟s first hotel and opened California‟s first public school? ",
+    "ans_1": "William Leidesdorff",
+    "ans_2": "William Tucker",
+    "ans_3": "William S. Whipper",
+    "moreInfo": "https://en.wikipedia.org/wiki/William_Leidesdorff",
+    "point_value": 10
+  },
+  "-MTx6jnp1XmUSP5vD19S": {
+    "id": "-MTx6jnp1XmUSP5vD19S",
+    "cat_id": "3",
+    "question": "What American jazz pianist, organist, bandleader, and composer was the leader of the first Black American band to play in Carnegie Hall? ",
+    "ans_1": "William \"Count\" Basie",
+    "ans_2": "W. Montague Cobb",
+    "ans_3": "William Wells Brown",
+    "moreInfo": "https://thebasie.org/countbasiebio/",
+    "point_value": 10
+  },
+  "-MTx6jnrftmKKyXEqx1g": {
+    "id": "-MTx6jnrftmKKyXEqx1g",
+    "cat_id": "3",
+    "question": "Who played the role of Celie in the movie version of Alice Walker‟s best-selling book, The Color Purple ? ",
+    "ans_1": "Whoopi Goldberg",
+    "ans_2": "W. Montague Cobb",
+    "ans_3": "Wyomia Tyus",
+    "moreInfo": "https://en.wikipedia.org/wiki/Whoopi_Goldberg",
+    "point_value": 10
+  },
+  "-MTx6jnveDfIflMZt-r4": {
+    "id": "-MTx6jnveDfIflMZt-r4",
+    "cat_id": "3",
+    "question": "What Black actress won a Academy Award for her supporting role in the movie Ghost? ",
+    "ans_1": "Whoopi Goldberg",
+    "ans_2": "W. Montague Cobb",
+    "ans_3": "William J. Seymour",
+    "moreInfo": "https://en.wikipedia.org/wiki/Whoopi_Goldberg",
+    "point_value": 10
+  },
+  "-MTx6jny0VxifYucdQBN": {
+    "id": "-MTx6jny0VxifYucdQBN",
+    "cat_id": "3",
+    "question": "The Best Supporting Actress award for this 1990 thriller/fantasy film went to a comedienne who had a one-woman show on Broadway in the mid-1980s. Who is she? ",
+    "ans_1": "Whoopi Goldberg",
+    "ans_2": "Willis Reed",
+    "ans_3": "Willie Mays",
+    "moreInfo": "https://en.wikipedia.org/wiki/Whoopi_Goldberg",
+    "point_value": 10
+  },
+  "-MTx6jo0VjOJXEG3x0LM": {
+    "id": "-MTx6jo0VjOJXEG3x0LM",
+    "cat_id": "3",
+    "question": "What artist recorded the songs, “I Will Always Love You, ”The Greatest Love of All”, and “I Wanna Dance with Somebody”? ",
+    "ans_1": "Whitney Houston",
+    "ans_2": "William J. Seymour",
+    "ans_3": "William Wells Brown",
+    "moreInfo": "https://en.wikipedia.org/wiki/Whitney_Houston",
+    "point_value": 10
+  },
+  "-MTx6jo5KxUptwGCCGhy": {
+    "id": "-MTx6jo5KxUptwGCCGhy",
+    "cat_id": "3",
+    "question": "Who is the award-winning recording/performing/video artist who recorded the platinum album called The Comfort Zone? ",
+    "ans_1": "Vanessa Williams",
+    "ans_2": "Wilma  Rudolph",
+    "ans_3": "Zina Garrison",
+    "moreInfo": "https://en.wikipedia.org/wiki/Vanessa_Williams",
+    "point_value": 10
+  },
+  "-MTx6jpU3khhtY80m2x-": {
+    "id": "-MTx6jpU3khhtY80m2x-",
+    "cat_id": "7",
+    "question": "What former two-time heavyweight boxing champion won a Gold Medal at the 1968 Olympics in Mexico City and went on to become a minister? ",
+    "ans_1": "George Foreman",
+    "ans_2": "William S. Whipper",
+    "ans_3": "W.D. David",
+    "moreInfo": "https://en.wikipedia.org/wiki/George_Foreman",
+    "point_value": 10
+  },
+  "-MTx6jpWLEVG9xY5EtZp": {
+    "id": "-MTx6jpWLEVG9xY5EtZp",
+    "cat_id": "7",
+    "question": "Who was the first Black American teenager to win the Junior Girls Singles Title at Wimbledon? ",
+    "ans_1": "Zina Garrison",
+    "ans_2": "Wyomia Tyus",
+    "ans_3": "Whitney Mays",
+    "moreInfo": "https://en.wikipedia.org/wiki/Zina_Garrison",
+    "point_value": 10
+  },
+  "-MTx6jpZ4DI43FkI4WmM": {
+    "id": "-MTx6jpZ4DI43FkI4WmM",
+    "cat_id": "7",
+    "question": "He played with the Negro League team Black Barons in Birmingham when he was 17 years old. Shortly after, in 1950, he signed with the New York Giants. He ranks third in total career home runs. Who is he? ",
+    "ans_1": "Willie Mays",
+    "ans_2": "Walton N. Smith",
+    "ans_3": "William Leidesdorff",
+    "moreInfo": "https://en.wikipedia.org/wiki/Willie_Mays",
+    "point_value": 10
+  },
+  "-MTx6jpaT9os-DGLyNef": {
+    "id": "-MTx6jpaT9os-DGLyNef",
+    "cat_id": "7",
+    "question": "Who was named NBA rookie of the year in 1965, his first year as a center for the New York Knicks? ",
+    "ans_1": "Willis Reed",
+    "ans_2": "William S. Whipper",
+    "ans_3": "William Wells Brown",
+    "moreInfo": "https://en.wikipedia.org/wiki/Willis_Reed",
+    "point_value": 10
+  },
+  "-MTx6jpd2MIgB019ZTmZ": {
+    "id": "-MTx6jpd2MIgB019ZTmZ",
+    "cat_id": "7",
+    "question": "Who was the first Black American to qualify and race in the Indianapolis 500? ",
+    "ans_1": "Willy T. Ribbs",
+    "ans_2": "Wilt Chamberlain",
+    "ans_3": "Wilson Hull",
+    "moreInfo": "https://en.wikipedia.org/wiki/Willy_T._Ribbs",
+    "point_value": 10
+  },
+  "-MTx6jpgNVb7CCPHEA_a": {
+    "id": "-MTx6jpgNVb7CCPHEA_a",
+    "cat_id": "7",
+    "question": "At the 1960 Olympics in Rome, this sprinter was the first American woman to win three Gold Medals. Who was she? ",
+    "ans_1": "Wilma  Rudolph",
+    "ans_2": "William O. Dillard, Sr.",
+    "ans_3": "William Tucker",
+    "moreInfo": "https://en.wikipedia.org/wiki/Wilma_Rudolph",
+    "point_value": 10
+  },
+  "-MTx6jpixR6rnds1h0z3": {
+    "id": "-MTx6jpixR6rnds1h0z3",
+    "cat_id": "7",
+    "question": "Who holds the record for most points scored in a single basketball game (100)? ",
+    "ans_1": "Wilt Chamberlain",
+    "ans_2": "W. Montague Cobb",
+    "ans_3": "William Wells Brown",
+    "moreInfo": "https://en.wikipedia.org/wiki/Wilt_Chamberlain",
+    "point_value": 10
+  },
+  "-MTx6jpl2mKQz6kA1imm": {
+    "id": "-MTx6jpl2mKQz6kA1imm",
+    "cat_id": "7",
+    "question": "What Tennessee State University student became the first woman to win the 100-meter dash twice at both the 1964 and 1968 Olympic games? ",
+    "ans_1": "Wyomia Tyus",
+    "ans_2": "Whitney Houston",
+    "ans_3": "Wyatt Tee Walker",
+    "moreInfo": "https://en.wikipedia.org/wiki/Wyomia_Tyus",
+    "point_value": 10
+  },
+  "-MTx6jpnTzv5WED1bhQi": {
+    "id": "-MTx6jpnTzv5WED1bhQi",
+    "cat_id": "7",
+    "question": "Who was the first Black National League baseball player to hit 600 home runs?",
+    "ans_1": "Willie Mays",
+    "ans_2": "Wyomia Tyus",
+    "ans_3": "W. Montague Cobb",
+    "moreInfo": "https://en.wikipedia.org/wiki/Willie_Mays",
+    "point_value": 10
+  },
+  "-MTx6joKw_vPNvaf-pwq": {
+    "id": "-MTx6joKw_vPNvaf-pwq",
+    "cat_id": "4",
+    "question": "Who was Dr. Martin Luther King, Jr.‟s executive assistant? ",
+    "ans_1": "Wyatt Tee Walker",
+    "ans_2": "William S. Whipper",
+    "ans_3": "William Wells Brown",
+    "moreInfo": "https://en.wikipedia.org/wiki/Wyatt_Tee_Walker",
+    "point_value": 10
+  },
+  "-MTx6joMlD0aadjpKjJB": {
+    "id": "-MTx6joMlD0aadjpKjJB",
+    "cat_id": "4",
+    "question": "The modern Pentecost movement originated from the Azusa Street Revival held in Los Angeles in 1906 under the leadership of the black Holiness preacher? ",
+    "ans_1": "William J. Seymour",
+    "ans_2": "William Wells Brown",
+    "ans_3": "W. Montague Cobb",
+    "moreInfo": "https://en.wikipedia.org/wiki/William_J._Seymour",
+    "point_value": 10
+  },
+  "-MTx6joPP78sVSlztSLV": {
+    "id": "-MTx6joPP78sVSlztSLV",
+    "cat_id": "4",
+    "question": "Who was the first African American deputy sheriff in Christian County in 1968? ",
+    "ans_1": "William O. Dillard, Sr.",
+    "ans_2": "Wendell Belfield",
+    "ans_3": "Willie Mays",
+    "moreInfo": "https://nkaa.uky.edu/nkaa/items/show/1042",
+    "point_value": 10
+  },
+  "-MTx6joRUycz_rt1JUQL": {
+    "id": "-MTx6joRUycz_rt1JUQL",
+    "cat_id": "4",
+    "question": "Who was honored as the pioneer of nonviolent protest? ",
+    "ans_1": "William S. Whipper",
+    "ans_2": "William Leidesdorff",
+    "ans_3": "William Tucker",
+    "moreInfo": "https://en.wikipedia.org/wiki/William_Whipper",
+    "point_value": 10
+  },
+  "-MTx6joUS1LJFBdeyqU0": {
+    "id": "-MTx6joUS1LJFBdeyqU0",
+    "cat_id": "4",
+    "question": "Who helped form the “American Moral Reform Society”, which helped Blacks acquire farms and aided runaway slaves in their escape to Canada? ",
+    "ans_1": "William S. Whipper",
+    "ans_2": "Willis Reed",
+    "ans_3": "Walton N. Smith",
+    "moreInfo": "https://en.wikipedia.org/wiki/William_Whipper",
+    "point_value": 10
+  },
+  "-MTx6joXRrcm_oW5NXhH": {
+    "id": "-MTx6joXRrcm_oW5NXhH",
+    "cat_id": "4",
+    "question": "Who was the first black born in colonial America at Jamestown, Virginia? ",
+    "ans_1": "William Tucker",
+    "ans_2": "W.D. David",
+    "ans_3": "William O. Dillard, Sr.",
+    "moreInfo": "https://www.blackpast.org/african-american-history/tucker-william-1624/",
+    "point_value": 10
+  },
+  "-MTx6jo_J8Y4rjcLs2Ro": {
+    "id": "-MTx6jo_J8Y4rjcLs2Ro",
+    "cat_id": "4",
+    "question": "This slave narrator was also an antislavery lecturer, novelist, dramatist and historian. Name him. ",
+    "ans_1": "William Wells Brown",
+    "ans_2": "Whitney Houston",
+    "ans_3": "Willie Mays",
+    "moreInfo": "https://en.wikipedia.org/wiki/William_Wells_Brown",
+    "point_value": 10
+  },
+  "-MTx6jp2eJZJaVDRtC2l": {
+    "id": "-MTx6jp2eJZJaVDRtC2l",
+    "cat_id": "6",
+    "question": "Who invented a patent for his invention of a mass release mechanism for satellites? ",
+    "ans_1": "Wilson Hull",
+    "ans_2": "Willis Reed",
+    "ans_3": "Wyomia Tyus",
+    "moreInfo": "https://patents.google.com/patent/US3424403A/en",
+    "point_value": 10
+  },
+  "-MTx6jp8CnfP7ggknfdV": {
+    "id": "-MTx6jp8CnfP7ggknfdV",
+    "cat_id": "6",
+    "question": "What scientist experimented with injections of Vitamin C in cats and dogs in order to find a cure for epilepsy? ",
+    "ans_1": "Wendell Belfield",
+    "ans_2": "George Foreman",
+    "ans_3": "Wyomia Tyus",
+    "moreInfo": "https://omslovemypet.com/about/",
+    "point_value": 10
+  },
+  "-MTx6jpCPOGSZuZnvR0t": {
+    "id": "-MTx6jpCPOGSZuZnvR0t",
+    "cat_id": "6",
+    "question": "Who invented the riding saddle for horses? ",
+    "ans_1": "W.D. David",
+    "ans_2": "William S. Whipper",
+    "ans_3": "W. Montague Cobb",
+    "moreInfo": "https://107jamz.com/black-inventions-paper-golf-tee-horseshoe-and-riding-saddle/#:~:text=It%20was%20during%20this%20time,men%20and%20horses%20as%20well.",
+    "point_value": 10
+  },
+  "-MTx6jpFj3T9h-ykIEPo": {
+    "id": "-MTx6jpFj3T9h-ykIEPo",
+    "cat_id": "6",
+    "question": "What Black American physician was referred to as “The principal historian of the Negro in medicine” in 1970? ",
+    "ans_1": "W. Montague Cobb",
+    "ans_2": "Wendell Belfield",
+    "ans_3": "William Tucker",
+    "moreInfo": "https://en.wikipedia.org/wiki/William_Montague_Cobb",
+    "point_value": 10
+  }
+}
