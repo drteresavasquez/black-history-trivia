@@ -4,15 +4,23 @@ import firebaseConfig from '../apiKeys';
 const dbUrl = firebaseConfig.databaseURL;
 
 const userData = (user) => new Promise((resolve, reject) => {
-  const userObject = {
-    displayName: user.displayName,
-    image: 
-  };
+  axios.get(`${dbUrl}/users.json?orderBy="uid"&equalTo="${user.uid}"`)
+    .then((response) => {
+      if (!Object.values(response.data).length) {
+        const userObject = {
+          uid: user.uid,
+          displayName: user.displayName,
+          image: user.photoURL,
+          email: user.email,
+        };
 
-  console.warn(userObject);
-  // axios.post(`${dbUrl}/users.json`, userObject)
-  //   .then((response) => console.warn(response))
-  //   .catch((error) => reject(error));
+        axios.post(`${dbUrl}/users.json`, userObject)
+          .then((userResponse) => {
+            axios.patch(`${dbUrl}/users/${userResponse.data.name}.json`, { firebaseKey: userResponse.data.name });
+          })
+          .catch((error) => reject(error));
+      }
+    });
 });
 
 export default userData;
