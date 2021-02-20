@@ -2,10 +2,15 @@
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 
 body {
-  background-color: antiquewhite;
-  color: brown;
+  background-color: black;
   text-align: center;
   margin-top: 100px;
+}
+
+.logout {
+  margin: 0 20px;
+  font-size: 25px;
+  color: white;
 }
 
 #cat-btns {
