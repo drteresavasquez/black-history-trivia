@@ -3,6 +3,9 @@ import 'firebase/auth';
 import loginButton from '../components/loginButton';
 import logoutButton from '../components/logoutButton';
 import navBar from '../components/navBar';
+import domEvents from '../events/domEvents';
+import navEvents from '../events/navEvents';
+import learnPlay from '../views/learnPlay';
 import loginScreen from '../views/loginScreen';
 import firebaseConfig from './apiKeys';
 import userData from './data/userData';
@@ -13,11 +16,14 @@ const checkLoginStatus = () => {
     if (user) {
       // person is logged in do something...
       navBar();
+      navEvents();
       logoutButton();
       userData(user); // checks for new user
+      learnPlay();
+      domEvents();
     } else {
       // person is NOT logged in
-      loginScreen();
+      loginScreen(); // load login screen
       loginButton();
     }
   });
