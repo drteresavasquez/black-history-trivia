@@ -1,0 +1,30 @@
+.image-cards {
+  display: flex;
+  flex-flow: row wrap;
+  width: 90%;
+  margin: auto;
+  justify-content: center;
+
+  &.splash {
+    justify-content: space-around;
+  }
+
+  .learn-play {
+    img {
+      cursor: pointer;
+    }
+  }
+
+  .starter-images {
+    img {
+      width: 300px;
+      margin: 5px;
+    }
+
+    // &.nexto {
+    //   @media only screen and (max-width: 600px) {
+    //     display: none;
+    //   }
+    // }
+  }
+}
