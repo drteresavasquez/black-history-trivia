@@ -1,16 +1,65 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 body {
   background-color: black;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 50px;
+
+  #app {
+    margin-top: 100px;;
+  }
+
+  h1, h2, h3 {
+    font-family: 'Bebas Neue', cursive;
+  }
+
+  nav {
+    background-color: gray;
+    font-family: 'Bebas Neue', cursive;
+  }
 }
 
 .logout {
   margin: 0 20px;
   font-size: 25px;
   color: white;
+}
+
+.image-cards {
+  display: flex;
+  flex-flow: row wrap;
+  width: 90%;
+  margin: auto;
+  justify-content: center;
+
+  &.splash {
+    justify-content: space-around;
+  }
+
+  .learn-play {
+    img {
+      cursor: pointer;
+    }
+  }
+
+  .starter-images {
+    img {
+      width: 300px;
+      margin: 5px;
+    }
+
+    // &.nexto {
+    //   @media only screen and (max-width: 600px) {
+    //     display: none;
+    //   }
+    // }
+  }
+}
+
+hr {
+  background-color: gray;
 }
 
 #cat-btns {
