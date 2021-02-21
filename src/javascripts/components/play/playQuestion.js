@@ -1,15 +1,4 @@
-import { getQuizData, updateQuizData } from '../../helpers/data/currentQuizData';
-
-const getCurrentAnswer = () => {
-  const { questions } = getQuizData();
-  const currQuesIndex = questions.findIndex((q) => q.gotCorrect === null);
-  const question = questions[currQuesIndex];
-  return {
-    question,
-    index: currQuesIndex,
-    allQuestions: questions,
-  };
-};
+import { getCurrentAnswer, updateCurrentAnswer } from '../../helpers/data/currentQuizData';
 
 const playQuestion = () => {
   const { question, index, allQuestions } = getCurrentAnswer();
@@ -36,9 +25,7 @@ const playQuestion = () => {
 
   document.querySelector('#play-body').addEventListener('input', (e) => {
     const answerValue = e.target.value;
-    const newQuestionInfo = [...allQuestions];
-    newQuestionInfo[index] = { ...question, selectedAnswer: answerValue };
-    updateQuizData({ questions: newQuestionInfo });
+    updateCurrentAnswer({ selectedAnswer: answerValue });
   });
 };
 export default playQuestion;
