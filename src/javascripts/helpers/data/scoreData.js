@@ -20,7 +20,7 @@ const getUserRank = () => new Promise((resolve, reject) => {
       const score = userScores.reduce((a, b) => a + b.score, 0);
       mergedArray.push({ ...user, score });
     });
-    const sorted = mergedArray.sort((a, b) => b.score - a.score).slice(0, 3);
+    const sorted = mergedArray.sort((a, b) => b.score - a.score);
     resolve(sorted);
   }).catch((error) => reject(error));
 });

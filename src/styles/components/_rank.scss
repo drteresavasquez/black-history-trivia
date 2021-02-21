@@ -1,3 +1,9 @@
+$list: (
+  ('first-place', rgb(17, 17, 117), 125px, 0px),
+  ('second-place', red, 100px, -20px),
+  ('third-place', rgb(107, 107, 104), 75px, -15px)
+);
+
 .top-three {
   display: flex;
   justify-content: center;
@@ -7,55 +13,65 @@
   img {
     border-radius: 50%;
   }
-  .first-place,
-  .second-place,
-  .third-place {
-    font-weight: bold;
-    display: flex;
-    flex-direction: column;
 
-    .number {
-      margin-bottom: -26px;
-      margin-left: 0px;
-      z-index: 100;
-      font-size: 25px;
+  .crown  {
+    border: none !important;
+    width: 50px !important;
+    align-self: center;
+    margin-top: -10px;
+  }
+
+  @each $item, $color, $pixels, $margin in $list {
+    .#{$item} {
       font-weight: bold;
-      width: 35px;
-      border-radius: 50%;
+      display: flex;
+      flex-direction: column;
       color: white;
-    }
 
-    .badge {
-      max-width: 70px;
-      align-self: center;
+      @if($item == 'second-place') {
+        margin-left: $margin;
+        margin-bottom: -15px;
+      } @else if ($item == 'third-place') {
+        margin-right: $margin;
+        margin-bottom: -15px;
+      } @else {
+        z-index: 100;
+      }
+
+      .number {
+        color: white;
+      }
+
+      .score {
+        font-family: $score-font;
+        font-size: 30px;
+      }
+  
+      .badge {
+        max-width: 70px;
+        align-self: center;
+      }
+
+      img {
+        width: $pixels;
+        border: 5px solid $color;
+      }
     }
+  }
+}
+
+.table {
+  width: 70%;
+  margin: auto;
+  border: none;
+  border-radius: 20px;
+
+  th, td {
+    vertical-align: middle;
   }
 
-  .first-place {
-    .number {
-      background-color: rgb(17, 17, 117);
-    }
-    img {
-      width: 125px;
-      border: 5px solid rgb(17, 17, 117);
-    }
-  }
-  .second-place {
-    .number {
-      background-color: red;
-    }
-    img {
-      width: 100px;
-      border: 5px solid red;
-    }
-  }
-  .third-place {
-    .number {
-      background-color: rgb(107, 107, 104);
-    }
-    img {
-      width: 75px;
-      border: 5px solid rgb(107, 107, 104);
-    }
+  .table-image {
+    width: 60px;
+    border-radius: 50%;
   }
 }
