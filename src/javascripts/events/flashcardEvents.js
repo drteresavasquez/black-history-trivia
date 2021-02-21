@@ -1,6 +1,9 @@
 const flashCardFlipper = () => {
   const card = document.querySelector('.flashcard');
-  card.addEventListener('click', () => {
+  $('#learn-question-toggler').on('click', () => {
+    card.classList.toggle('is-flipped');
+  });
+  $('.flashcard').on('click', () => {
     card.classList.toggle('is-flipped');
   });
 };
