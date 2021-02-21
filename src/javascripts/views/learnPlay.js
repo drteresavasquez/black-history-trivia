@@ -25,7 +25,6 @@ const learnPlay = () => {
         <p>Test your knowledge of Black achievements against the clock and other users! </p>
       </div>
     </div>
-    <div id="logout-button"></div>
   </div>`;
 };
 

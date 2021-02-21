@@ -1,3 +1,4 @@
+import logoutButton from '../components/logoutButton';
 import flashcards from '../views/flashcards';
 import leaderboard from '../views/leaderboard';
 import learnPlay from '../views/learnPlay';
@@ -23,6 +24,7 @@ const domEvents = () => {
     }
     if (e.target.id === 'profile-card') {
       profile();
+      logoutButton();
     }
   });
 };

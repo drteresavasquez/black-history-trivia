@@ -1,9 +1,6 @@
 import firebase from 'firebase/app';
 import 'firebase/auth';
 import loginButton from '../components/loginButton';
-// import logoutButton from '../components/logoutButton';
-// import navBar from '../components/navBar';
-// import navEvents from '../events/navEvents';
 import domEvents from '../events/domEvents';
 import learnPlay from '../views/learnPlay';
 import loginScreen from '../views/loginScreen';
