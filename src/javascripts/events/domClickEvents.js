@@ -7,8 +7,6 @@ import play from '../views/play';
 import profile from '../views/profile';
 
 const domClickEvents = (e) => {
-  // e.stopPropagation();
-
   if (e.target.id === 'back-btn') {
     learnPlay();
   }
