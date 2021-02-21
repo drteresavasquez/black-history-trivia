@@ -1,0 +1,36 @@
+#google-auth {
+  text-align: right;
+  margin: 0 20px;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+
+  @media only screen and (max-width: 600px) {
+    margin: 20px;
+  }
+}
+
+.login-button {
+  text-align: center !important;
+  padding: 10px;
+  width: 90%;
+  border-radius: 40px;
+  margin: auto;
+  margin-top: 150px;
+}
+
+#cat-btns {
+  margin: 4px;
+}
+
+.button-row {
+  margin: 10px;
+  justify-content: space-between;
+  #back-btn {
+    margin: 0;
+    align-self: center;
+  }
+  #google-auth {
+    margin: 0;
+  }
+}
