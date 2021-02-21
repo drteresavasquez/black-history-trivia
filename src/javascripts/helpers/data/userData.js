@@ -29,4 +29,22 @@ const userData = (user) => new Promise((resolve, reject) => {
     });
 });
 
-export { userData, getUsers };
+const getUserScore = (uid) => new Promise((resolve, reject) => {
+  axios.get(`${dbUrl}/scores.json?orderBy="user_id"&equalTo="${uid}"`)
+    .then((response) => {
+      const scores = Object.values(response.data);
+      const totalScore = scores.reduce((a, b) => a + b.score, 0);
+
+      const scoresByCategory = [];
+      const catArray = Array.from({ length: 7 }, (_, i) => i + 1);
+      catArray.forEach((cat) => {
+        const newb = scores.filter((score) => cat === score.cat_id);
+        const catScore = newb.reduce((a, b) => a + b.score, 0);
+        scoresByCategory.push({ score: catScore, id: cat });
+      });
+      resolve([totalScore, scoresByCategory]);
+    })
+    .catch((error) => reject(error));
+});
+
+export { userData, getUsers, getUserScore };

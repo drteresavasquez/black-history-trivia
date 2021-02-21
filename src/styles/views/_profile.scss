@@ -1,0 +1,63 @@
+.profile-icon-container {
+  display: flex;
+  width: 50%;
+  margin: auto;
+  flex-flow: row wrap;
+  justify-content: space-around;
+
+  @media only screen and (max-width: 600px) {
+    width: 90%;
+  }
+
+  .profile-icon-set {
+    width: 33%;
+
+    .profile-icon {
+      vertical-align: middle;
+      border-style: none;
+      width: 74px;
+      height: 75px;
+      background-color: #fcb97d;
+      border-radius: 50%;
+
+      &:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+      }
+    }
+
+    p {
+      font-family: $score-font;
+      color: white;
+      font-size: 20px;
+    }
+  }
+}
+
+.score-title {
+  font-family: $score-font;
+  color: $accent-1;
+  font-size: 50px;
+}
+
+.user-card{
+  margin: auto;
+}
+.user-img{
+  width: 200px;
+  margin: auto;
+  border: 5px solid #443742;
+  border-radius: 49%;
+  -webkit-border-radius: 49%;
+}
+
+.user-body{
+  margin: 1em;
+}
+.name{
+  font-weight: 500;
+  color: white;
+}
+.email{
+  margin-top: -1em;
+  color: white;
+}

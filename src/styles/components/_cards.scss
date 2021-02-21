@@ -22,6 +22,34 @@
     width: 40%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
+    background-color: rgb(235, 235, 235);
+
+    @media only screen and (max-width: 899px) {
+      width: 100%;
+    }
+
+    &:hover {
+      background-color: #6e5f6c;
+      color: white;
+    }
+    
+    .card-header-img {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
+      img {
+        width: 30%;
+        height: 90px;
+        margin: 15px;
+      }
+
+      @media only screen and (min-width: 899px) {
+        img {
+          width: 25%;
+        }
+      }
+    }
 
     & > * {
       pointer-events: none;
@@ -33,6 +61,10 @@
 
     &:hover {
       box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+
+      h3 {
+        color: $accent-1;
+      }
     }
 
     @media only screen and (max-width: 600px) {
