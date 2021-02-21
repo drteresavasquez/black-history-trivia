@@ -31,11 +31,12 @@ const playResults = () => {
   }).then(() => {
     document.querySelector('#play-body').innerHTML = `
     <div class="play-results">
-      <div class="play-results-score">Score: ${totalScore}</div>
-      <div class="play-results-correctnum">${totalCorrect} / ${totalQuestions}</div>
-      <div class="play-results-time">Finished in ${mins}m ${seconds}s</div>
+      <h3 class="play-results-score text-white">Score: ${totalScore} PTS</h3>
+      <div class="play-results-correctnum text-white">You got ${totalCorrect} / ${totalQuestions} correct</div>
+      <div class="play-results-time text-white">You finished in ${mins}m ${seconds}s</div>
+      <div class="play-intro-image"><img src="https://firebasestorage.googleapis.com/v0/b/bhm-trivia-app.appspot.com/o/answer_queues%2Fscoreresults.png?alt=media&token=5c2aa3f9-16cc-4135-980a-bc44c402dc38" alt="image"></div>
       <div class="play-results-button-container">
-        <button id="play-show-leaderboard" class="play-results-button btn">Go to leaderboard</button>
+        <button id="play-show-leaderboard" class="play-results-button btn play-cat-btns btn-light">Go to leaderboard</button>
       </div>
     </div>
     `;
