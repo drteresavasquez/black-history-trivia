@@ -1,16 +1,18 @@
 import firebase from 'firebase/app';
 import 'firebase/auth';
+import { loader, removeLoader } from '../components/loader';
 import { getUserScore } from '../helpers/data/userData';
 import iconUrl from '../helpers/iconUrl';
 
 const profile = () => {
   document.querySelector('#app').innerHTML = `<div class="d-flex button-row">
-    <div id="back-btn">
-      <i class="fas fa-chevron-left"></i> BACK
-    </div>
-    <div id="logout-button">
-    </div>
+  <div id="back-btn">
+  <i class="fas fa-chevron-left"></i> BACK
+  </div>
+  <div id="logout-button">
+  </div>
   </div>`;
+  loader('#app', true);
 
   const user = firebase.auth().currentUser;
   document.querySelector('#app').innerHTML += `
@@ -37,6 +39,7 @@ const profile = () => {
         <p>${item.score} PTS</p>
       </div>`);
     });
+    removeLoader();
   });
 };
 

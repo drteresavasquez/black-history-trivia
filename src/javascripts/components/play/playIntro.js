@@ -2,6 +2,7 @@ import getQuestions from '../../helpers/data/questionData';
 import { getCategory } from '../../helpers/data/categoryData';
 import arrayShuffler from '../../helpers/arrayShuffler';
 import { updateQuizData } from '../../helpers/data/currentQuizData';
+import { loader } from '../loader';
 
 const updateAnswerInfo = (questions) => questions.map((question) => {
   const { ans_1: a1, ans_2: a2, ans_3: a3 } = question;
@@ -15,10 +16,7 @@ const updateAnswerInfo = (questions) => questions.map((question) => {
 });
 
 const playIntro = (categoryId) => {
-  document.querySelector('#play-body').innerHTML = `
-  <div class="play-loader spinner-border text-light" role="status">
-    <span class="sr-only">Loading...</span>
-  </div>`;
+  loader('#play-body');
 
   const qPromise = getQuestions(categoryId).then((resp) => arrayShuffler(resp).slice(0, 5));
   const catPromise = getCategory(categoryId);

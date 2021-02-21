@@ -1,3 +1,4 @@
+import { loader } from '../../components/loader';
 import { getCategory } from './categoryData';
 import getQuestions from './questionData';
 
@@ -26,10 +27,7 @@ const updateCurrentCard = (next = true) => {
 };
 
 const startCardData = (categoryId) => {
-  document.querySelector('#learn-body').innerHTML = `
-  <div class="play-loader spinner-border text-light" role="status">
-    <span class="sr-only">Loading...</span>
-  </div>`;
+  loader('#learn-body');
 
   const questionPromise = getQuestions(categoryId).then((questions) => ({ questions, currentIndex: 0 }));
 
