@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
-#play-body {
+#play-body,
+#learn-body {
   margin: auto;
   max-width: 375px;
 
@@ -9,6 +10,7 @@
   }
 
   .play-categories,
+  .learn-categories,
   .play-intro-details,
   .play-feedback,
   .play-results {
