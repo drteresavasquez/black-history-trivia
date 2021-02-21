@@ -7,7 +7,7 @@ const signMeOut = () => {
 };
 
 const logoutButton = () => {
-  const domString = '<button id="google-auth" class="btn btn-danger">SIGNOUT</button>';
+  const domString = '<div id="google-auth">LOGOUT <i class="fa fa-sign-out-alt" aria-hidden="true"></i></div>';
   document.querySelector('#logout-button').innerHTML = domString;
   document.querySelector('#google-auth').addEventListener('click', signMeOut);
 };
