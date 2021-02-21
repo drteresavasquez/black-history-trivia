@@ -1,14 +1,12 @@
 import firebase from 'firebase/app';
 import { getQuizData } from '../../helpers/data/currentQuizData';
 import { postScore } from '../../helpers/data/scoreData';
+import { loader } from '../loader';
 
 const QUESTION_POINTS = 80;
 const MAX_MINUTE = 2;
 const playResults = () => {
-  document.querySelector('#play-body').innerHTML = `
-  <div class="play-loader spinner-border text-light" role="status">
-    <span class="sr-only">Loading...</span>
-  </div>`;
+  loader('#play-body');
   const {
     endTime, questions, startTime, catId
   } = getQuizData();
