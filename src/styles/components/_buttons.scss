@@ -5,17 +5,13 @@
   color: white;
   cursor: pointer;
   z-index: 100;
-
-  @media only screen and (max-width: 600px) {
-    margin: 20px;
-  }
 }
 
 .login-button {
   text-align: center !important;
   margin: 0 24px;
   padding: 10px;
-  width: 300px;
+  max-width: 300px;
   border-radius: 40px;
   border: none !important;
   margin: auto;
