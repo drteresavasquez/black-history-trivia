@@ -7,6 +7,14 @@ const updateQuizData = (newInfo) => {
   return quizData;
 };
 
+const addQuizTime = (startTime = true) => {
+  if (startTime) {
+    updateQuizData({ startTime: new Date() });
+  } else {
+    updateQuizData({ endTime: new Date() });
+  }
+};
+
 const getCurrentAnswer = () => {
   const { questions } = getQuizData();
   const currQuesIndex = questions.findIndex((q) => q.gotCorrect === null);
@@ -26,5 +34,5 @@ const updateCurrentAnswer = (newInfo) => {
 };
 
 export {
-  getQuizData, updateQuizData, getCurrentAnswer, updateCurrentAnswer
+  getQuizData, updateQuizData, getCurrentAnswer, updateCurrentAnswer, addQuizTime
 };
