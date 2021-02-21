@@ -12,17 +12,22 @@
   .profile-icon-set {
     width: 33%;
 
-    .profile-icon {
-      vertical-align: middle;
-      border-style: none;
-      width: 74px;
-      height: 75px;
-      background-color: #fcb97d;
+    .icon-bg {
+      background-color: #4d2d48;
       border-radius: 50%;
+      width: 80px;
+      height: 80px;
+      margin: auto;
 
       &:hover {
         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
       }
+    }
+
+    .profile-icon {
+      vertical-align: middle;
+      border-style: none;
+      height: 75px;
     }
 
     p {

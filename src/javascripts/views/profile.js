@@ -35,7 +35,9 @@ const profile = () => {
       const url = iconUrl(item.id);
       $('.profile-icon-container').append(`
       <div class="profile-icon-set">
-        <img class="profile-icon" src="${url}" alt="icon">
+        <div class="icon-bg">
+          <img class="profile-icon" src="${url}" alt="icon">
+        </div>
         <p>${item.score} PTS</p>
       </div>`);
     });

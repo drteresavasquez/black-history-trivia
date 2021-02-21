@@ -1,12 +1,12 @@
 const iconUrl = (num) => {
   const obj = {
-    1: '1487a9f5-4969-462c-8363-a3a6016ce575',
-    2: '70bc4e6a-972e-4875-bd29-71d8f451ed9c',
-    3: '1b4f6e1e-b1b5-4ce5-b178-a36a7b02084d',
-    4: '5105f7ed-4d78-4099-8bb6-c9e91fbfdf0e',
-    5: '8276bf4e-7696-4615-ad2e-cfe50afc2c5b',
-    6: '99526212-5728-4cbf-b3ff-130830afee95',
-    7: 'ab39e464-7d02-49d1-b550-d593cce2d3bf'
+    1: '1bbc7955-8299-4cc5-b6da-32e1ddcc41b4',
+    2: '811a16d1-8b55-4e3b-854d-47a03958b4d5',
+    3: '1a495f44-e92f-4492-a0fd-364ddcb2c5d1',
+    4: '4a7638d8-34f4-4d15-a67c-2acdce17e14a',
+    5: '4f8a142f-0fd1-4530-ad66-00d468e3a842',
+    6: 'b6dc7683-cbfd-4934-b46b-1a1aeadf360f',
+    7: 'f33fc7ff-9b61-4ae5-a1d5-ffbd32765d70'
   };
   return `https://firebasestorage.googleapis.com/v0/b/bhm-trivia-app.appspot.com/o/icons%2F${num}.png?alt=media&token=${obj[num]}`;
 };
