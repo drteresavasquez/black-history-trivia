@@ -1,0 +1,77 @@
+$list: (
+  ('first-place', rgb(17, 17, 117), 125px, 0px),
+  ('second-place', red, 100px, -20px),
+  ('third-place', rgb(107, 107, 104), 75px, -15px)
+);
+
+.top-three {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  align-items: flex-end;
+
+  img {
+    border-radius: 50%;
+  }
+
+  .crown  {
+    border: none !important;
+    width: 50px !important;
+    align-self: center;
+    margin-top: -10px;
+  }
+
+  @each $item, $color, $pixels, $margin in $list {
+    .#{$item} {
+      font-weight: bold;
+      display: flex;
+      flex-direction: column;
+      color: white;
+
+      @if($item == 'second-place') {
+        margin-left: $margin;
+        margin-bottom: -15px;
+      } @else if ($item == 'third-place') {
+        margin-right: $margin;
+        margin-bottom: -15px;
+      } @else {
+        z-index: 100;
+      }
+
+      .number {
+        color: white;
+      }
+
+      .score {
+        font-family: $score-font;
+        font-size: 30px;
+      }
+  
+      .badge {
+        max-width: 70px;
+        align-self: center;
+      }
+
+      img {
+        width: $pixels;
+        border: 5px solid $color;
+      }
+    }
+  }
+}
+
+.table {
+  width: 70%;
+  margin: auto;
+  border: none;
+  border-radius: 20px;
+
+  th, td {
+    vertical-align: middle;
+  }
+
+  .table-image {
+    width: 60px;
+    border-radius: 50%;
+  }
+}
