@@ -1,5 +1,6 @@
 import { getUserRank } from '../helpers/data/scoreData';
 import crown from '../../assets/crown.png';
+import { removeLoader } from './loader';
 
 const rank = () => getUserRank().then((scores) => {
   const topThreeUsers = scores.splice(0, 3);
@@ -35,7 +36,7 @@ const rank = () => getUserRank().then((scores) => {
     </tr>
   </thead>
   <tbody>
-    
+
   </tbody>
 </table>`;
 
@@ -47,6 +48,8 @@ const rank = () => getUserRank().then((scores) => {
       <td>${user.score}</td>
     </tr>`);
   });
+
+  removeLoader();
 });
 
 export default rank;
