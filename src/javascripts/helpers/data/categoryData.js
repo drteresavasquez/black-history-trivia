@@ -8,4 +8,10 @@ const getCategories = () => new Promise((resolve, reject) => {
     .catch((error) => reject(error));
 });
 
+export const getCategory = (categoryId) => new Promise((resolve, reject) => {
+  axios.get(`${dbUrl}/categories.json?orderBy="id"&equalTo=${categoryId}`)
+    .then((response) => resolve(...Object.values(response.data)))
+    .catch((error) => reject(error));
+});
+
 export default getCategories;
