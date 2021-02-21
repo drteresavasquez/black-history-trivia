@@ -1,12 +1,14 @@
-import { getCurrentAnswer, updateCurrentAnswer, addQuizTime } from '../../helpers/data/currentQuizData';
+import catImageUrl from '../../helpers/catImageUrl';
+import { getCurrentAnswer, updateCurrentAnswer, addQuizTime, getQuizData } from '../../helpers/data/currentQuizData';
 import playResults from './playResults';
 
 const playQuestion = () => {
   const { question = null, index, allQuestions } = getCurrentAnswer();
 
+  const { catId } = getQuizData();
   if (question) {
     document.querySelector('#play-body').innerHTML = `<div class="play-question">
-    <div class="play-question-image"><img src="https://firebasestorage.googleapis.com/v0/b/bhm-trivia-app.appspot.com/o/category_images%2Fcat-1.jpg?alt=media&token=05f77b38-720a-454d-a716-cf1d07d8a3ad" alt="image"></div>
+    <div class="play-question-image"><img src="${catImageUrl(catId)}" alt="image"></div>
     
     <div class="card question-card">
       <div class="card-body">
