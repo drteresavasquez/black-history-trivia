@@ -4,6 +4,7 @@
   font-size: 14px;
   color: white;
   cursor: pointer;
+  z-index: 100;
 
   @media only screen and (max-width: 600px) {
     margin: 20px;
@@ -42,5 +43,6 @@
   }
   #google-auth {
     margin: 0;
+    z-index: 100;
   }
 }
