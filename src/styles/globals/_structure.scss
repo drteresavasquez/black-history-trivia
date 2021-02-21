@@ -35,43 +35,12 @@ body {
   }
 
   .subtitle {
-    font-size: 24px;
+    font-family: $roboto;
+    font-weight: 100;
+    font-size: 30px;
   }
 }
 
 hr {
   background-color: gray;
-}
-
-// profile section
-.user-card{
-  margin: auto;
-}
-.user-img{
-  width: 55%;
-  margin: auto;
-  border: 5px solid #9198e5;
-  border-radius: 49%;
-  -webkit-border-radius: 49%;
-}
-
-.profile-title{
-  color: white;
-}
-
-.user-body{
-  margin: 1em;
-}
-.name{
-  font-weight: 500;
-  color: white;
-}
-.email{
-  margin-top: -1em;
-  color: white;
-}
-
-.score-title{
-  font-weight: bold;
-  color: white;
 }

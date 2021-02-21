@@ -1,6 +1,6 @@
 #google-auth {
   text-align: right;
-  margin: 0 20px;
+  margin: auto;
   font-size: 14px;
   color: white;
   cursor: pointer;
@@ -12,11 +12,21 @@
 
 .login-button {
   text-align: center !important;
+  margin: 0 24px;
   padding: 10px;
-  width: 90%;
+  width: 300px;
   border-radius: 40px;
+  border: none !important;
   margin: auto;
   margin-top: 150px;
+  background-color: $accent-1 !important;
+  color: black !important;
+  font-size: 24px !important;
+  font-family: $roboto !important;
+
+  &:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+  }
 }
 
 #cat-btns {
