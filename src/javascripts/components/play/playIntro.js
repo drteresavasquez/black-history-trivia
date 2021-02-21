@@ -31,7 +31,7 @@ const playIntro = (categoryId) => {
         <div class="play-intro-details">
         <h3 class="play-intro-details-title text-white">Play ${catName}</h3>
         <div class="play-intro-image"><img src="${catImageUrl(categoryId)}" alt="image"></div>
-          <div class="play-intro-details-buttons"><button id="play-quiz-start" type="button" class="btn play-cat-btns btn-light">Get Started</button>
+          <div class="play-intro-details-buttons"><button id="play-quiz-start" type="button" class="btn play-cat-btns btn-light">PLAY!</button>
           </div>
         </div>
       </div>
