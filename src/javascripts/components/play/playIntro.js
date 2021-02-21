@@ -18,9 +18,9 @@ const playIntro = (categoryId) => {
   const qPromise = getQuestions(categoryId).then((resp) => arrayShuffler(resp).slice(0, 5));
   const catPromise = getCategory(categoryId);
 
-  Promise.all([qPromise, catPromise]).then(([qResp, { name: catName }]) => {
+  Promise.all([qPromise, catPromise]).then(([qResp, { name: catName, id: catId }]) => {
     const newQuestionInfo = updateAnswerInfo(qResp);
-    updateQuizData({ questions: newQuestionInfo, category: catName });
+    updateQuizData({ questions: newQuestionInfo, category: catName, catId });
     document.querySelector('#play-body').innerHTML = `
       <div class="play-intro-container">
         <div class="play-intro-image"></div>
