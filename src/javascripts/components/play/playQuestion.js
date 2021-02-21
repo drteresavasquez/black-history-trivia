@@ -1,5 +1,7 @@
 import catImageUrl from '../../helpers/catImageUrl';
-import { getCurrentAnswer, updateCurrentAnswer, addQuizTime, getQuizData } from '../../helpers/data/currentQuizData';
+import {
+  getCurrentAnswer, updateCurrentAnswer, addQuizTime, getQuizData
+} from '../../helpers/data/currentQuizData';
 import playResults from './playResults';
 
 const playQuestion = () => {
