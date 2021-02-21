@@ -44,8 +44,14 @@
   align-items: center;
   border-radius: 10px;
   background: $accent-1;
+  color: black !important;
   transform: rotateY(180deg);
   padding: 20px;
+
+  a {
+    text-decoration: none;
+    color: rgb(68, 68, 68);
+  }
 }
 
 .flashcards-button-bar {
