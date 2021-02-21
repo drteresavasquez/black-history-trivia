@@ -25,4 +25,10 @@ const getUserRank = () => new Promise((resolve, reject) => {
   }).catch((error) => reject(error));
 });
 
-export { getScores, getUserRank };
+const postScore = (scoreObj) => new Promise((resolve, reject) => {
+  axios
+    .post(`${dbUrl}/scores.json`, scoreObj)
+    .then((response) => resolve(response.data))
+    .catch((error) => reject(error));
+});
+export { getScores, getUserRank, postScore };
