@@ -1,7 +1,11 @@
 const loader = (selecctorId, append = false) => {
   const domString = `
-  <div id="loader-component" class="play-loader spinner-border text-light" role="status">
-    <span class="sr-only">Loading...</span>
+  <div id="loader-component" class="loader-overlay">
+    <div class="loader-content">
+      <div class="spinner-border" role="status">
+        <span class="content sr-only">Loading...</span>
+      </div>
+    </div>
   </div>`;
   if (append) {
     document.querySelector(selecctorId).innerHTML += domString;
