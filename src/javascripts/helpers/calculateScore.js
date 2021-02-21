@@ -7,7 +7,7 @@ const calculateScore = (secondsUsed, correctAnswers) => {
   if (timeScore > 0) {
     timeScore *= correctAnswers;
   } else {
-    timeScore *= 5;
+    timeScore *= ((5 - correctAnswers) + 5);
   }
   const totalScore = timeScore + answerScore;
 
