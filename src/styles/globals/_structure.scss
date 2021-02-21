@@ -1,11 +1,26 @@
 body {
   text-align: center;
-  background: linear-gradient($linear-grad-2, $linear-grad-1, $linear-grad-2) !important;
+  background-image: linear-gradient($linear-grad-2, $linear-grad-1, $linear-grad-2), url('../assets/bg.jpg') !important;
   min-height: 680px;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
 
   @media only screen and (min-width: 900px) {
     height: 100vh;
   }
+
+  // &::after {
+  //   content: "";
+  //   background: url(./../../assets/bg.jpg);
+  //   opacity: 0.5;
+  //   top: 0;
+  //   left: 0;
+  //   bottom: 0;
+  //   right: 0;
+  //   position: absolute;
+  //   z-index: -1;   
+  // }
 
   .hidden {
     visibility: hidden;
