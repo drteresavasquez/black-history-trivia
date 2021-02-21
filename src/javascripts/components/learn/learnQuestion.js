@@ -1,7 +1,7 @@
 import flashCardFlipper from '../../events/flashcardEvents';
 import { getCardData, getCurrentCard } from '../../helpers/data/currentFlashCardData';
 
-const showInfo = (showQuestion = true) => (showQuestion ? `<div><h3>Question</h3><br> ${getCurrentCard().question}</div>` : `<div><h3>Answer</h3><br> ${getCurrentCard().ans_1}</div>`);
+const showInfo = (showQuestion = true) => (showQuestion ? `<div><h2>Question</h2><br> ${getCurrentCard().question}</div>` : `<div><h2>Answer</h2><br> ${getCurrentCard().ans_1} <div class="mt-4"><a href="${getCurrentCard().moreInfo}" target="_blank">Get More Info</a></div></div>`);
 
 const learnQuestion = () => {
   let showQuestion = true;

@@ -688,5 +688,525 @@
     "ans_3": "William Tucker",
     "moreInfo": "https://en.wikipedia.org/wiki/William_Montague_Cobb",
     "point_value": 10
+  },
+  "-MTx6jpZ4DI43FkI4Wma": {
+    "id": "-MTx6jpZ4DI43FkI4Wma",
+    "cat_id": "7",
+    "question": "Jackie Robinson excelled in four sports at what university? ",
+    "ans_1": "UCLA",
+    "ans_2": "USC",
+    "ans_3": "TSU",
+    "moreInfo": "https://en.wikipedia.org/wiki/Jackie_Robinson",
+    "point_value": 10
+  },
+  "-MTx6jpZ4DI43FkI4Wmb": {
+    "id": "-MTx6jpZ4DI43FkI4Wmb",
+    "cat_id": "7",
+    "question": "What was boxing great Sugar Ray Robinson‟s real name? ",
+    "ans_1": "Walker Smith Jr.",
+    "ans_2": "Ray Smith",
+    "ans_3": "Mo Robinson",
+    "moreInfo": "https://en.wikipedia.org/wiki/Sugar_Ray_Robinson",
+    "point_value": 10
+  },
+  "-MTx6jpZ4DI43FkI4Wmc": {
+    "id": "-MTx6jpZ4DI43FkI4Wmc",
+    "cat_id": "7",
+    "question": "These two sisters were born in 1980 and 1981, respectively. They are champions of Wimbledon and other major tennis tournaments. Name them. ",
+    "ans_1": "Venus and Serena Williams",
+    "ans_2": "Ashley and Cindy Serrano",
+    "ans_3": "Samantha and Kristie Mewis",
+    "moreInfo": "https://en.wikipedia.org/wiki/Serena_Williams",
+    "point_value": 10
+  },
+  "-MTx6jpZ4DI43FkI4Wmd": {
+    "id": "-MTx6jpZ4DI43FkI4Wmd",
+    "cat_id": "7",
+    "question": "Who was the first player in NFL history with 180+ rushing yards in three consecutive games? ",
+    "ans_1": "Derrick Henry",
+    "ans_2": "Earl Campbell",
+    "ans_3": "Ezekiel Elliott",
+    "moreInfo": "https://en.wikipedia.org/wiki/Derrick_Henry",
+    "point_value": 10
+  },
+  "-MTx6jpZ4DI43FkI4Wme": {
+    "id": "-MTx6jpZ4DI43FkI4Wme",
+    "cat_id": "7",
+    "question": "Who is the only player in NFL history with 6 touchdown runs of over 80 yards (80, 83, 85, 89, 91, 94)? ",
+    "ans_1": "Chris Johnson",
+    "ans_2": "Adrian Peterson",
+    "ans_3": "Emmitt Smith",
+    "moreInfo": "https://en.wikipedia.org/wiki/Chris_Johnson_(running_back)",
+    "point_value": 10
+  },
+  "-MTx6jpZ4DI43FkI4Wmf": {
+    "id": "-MTx6jpZ4DI43FkI4Wmf",
+    "cat_id": "7",
+    "question": "Who was the first player in NFL history to record a 200+yard and 4+touchdown game on fewer than 22 carries? ",
+    "ans_1": "Derrick Henry",
+    "ans_2": "Adrian Peterson",
+    "ans_3": "O.J. Simpson",
+    "moreInfo": "https://en.wikipedia.org/wiki/Derrick_Henry",
+    "point_value": 10
+  },
+  "-MTx6jpZ4DI43FkI4Wmg": {
+    "id": "-MTx6jpZ4DI43FkI4Wmg",
+    "cat_id": "6",
+    "question": "What measuring instrument was invented by Frederick Jones? ",
+    "ans_1": "Thermostat",
+    "ans_2": "Tape Measure",
+    "ans_3": "Protractor",
+    "moreInfo": "https://en.wikipedia.org/wiki/Frederick_McKinley_Jones",
+    "point_value": 10
+  },
+  "-MTx6jpZ4DI43FkI4Wmh": {
+    "id": "-MTx6jpZ4DI43FkI4Wmh",
+    "cat_id": "6",
+    "question": "What famous dermatologist treated leprosy and syphilis? ",
+    "ans_1": "Theodore K. Lawless",
+    "ans_2": "Ben Carson",
+    "ans_3": "Bill Cosby",
+    "moreInfo": "https://en.wikipedia.org/wiki/Theodore_K._Lawless",
+    "point_value": 10
+  },
+  "-MTx6jpZ4DI43FkI4Wmi": {
+    "id": "-MTx6jpZ4DI43FkI4Wmi",
+    "cat_id": "6",
+    "question": "Dr. William Hinton is credited with developing a test to detect what disease? ",
+    "ans_1": "Syphilis",
+    "ans_2": "Chlamydia",
+    "ans_3": "Pneumonia",
+    "moreInfo": "https://en.wikipedia.org/wiki/William_Augustus_Hinton",
+    "point_value": 10
+  },
+  "-MTx6jpZ4DI43FkI4Wmj": {
+    "id": "-MTx6jpZ4DI43FkI4Wmj",
+    "cat_id": "6",
+    "question": "What did George Washington Carver use to develop postage stamp glue? ",
+    "ans_1": "Sweet potatoes",
+    "ans_2": "Peanuts",
+    "ans_3": "Garlic",
+    "moreInfo": "https://en.wikipedia.org/wiki/George_Washington_Carver",
+    "point_value": 10
+  },
+  "-MTx6jpZ4DI43FkI4Wmk": {
+    "id": "-MTx6jpZ4DI43FkI4Wmk",
+    "cat_id": "6",
+    "question": "At the age of fifteen, Elijah McCoy traveled to what country in order to study engineering? ",
+    "ans_1": "Scotland",
+    "ans_2": "India",
+    "ans_3": "Japan",
+    "moreInfo": "https://en.wikipedia.org/wiki/Elijah_McCoy",
+    "point_value": 10
+  },
+  "-MTx6jpZ4DI43FkI4Wml": {
+    "id": "-MTx6jpZ4DI43FkI4Wml",
+    "cat_id": "6",
+    "question": "Who invented the automatic car washer? ",
+    "ans_1": "Richard Spikes",
+    "ans_2": "Timmy Turner",
+    "ans_3": "Carl Washington",
+    "moreInfo": "https://en.wikipedia.org/wiki/Richard_Spikes",
+    "point_value": 10
+  },
+  "-MTx6jpZ4DI43FkI4Wmm": {
+    "id": "-MTx6jpZ4DI43FkI4Wmm",
+    "cat_id": "5",
+    "question": "In what year did Jesse Jackson run for President of the United States? ",
+    "ans_1": "1988",
+    "ans_2": "1996",
+    "ans_3": "1976",
+    "moreInfo": "https://en.wikipedia.org/wiki/Jesse_Jackson",
+    "point_value": 10
+  },
+  "-MTx6jpZ4DI43FkI4Wmn": {
+    "id": "-MTx6jpZ4DI43FkI4Wmn",
+    "cat_id": "5",
+    "question": "Who was the U.S. Ambassador to the United Nations from 1977 to 1979? ",
+    "ans_1": "Andrew Young",
+    "ans_2": "James Baldwin",
+    "ans_3": "Barack Obama",
+    "moreInfo": "https://en.wikipedia.org/wiki/Andrew_Young",
+    "point_value": 10
+  },
+  "-MTx6jpZ4DI43FkI4Wmo": {
+    "id": "-MTx6jpZ4DI43FkI4Wmo",
+    "cat_id": "5",
+    "question": "What militant group embodied the term “Black Power”? ",
+    "ans_1": "Black Panther Party",
+    "ans_2": "Chicago Housing Activists",
+    "ans_3": "NAACP",
+    "moreInfo": "https://en.wikipedia.org/wiki/Black_Panther_Party",
+    "point_value": 10
+  },
+  "-MTx6jpZ4DI43FkI4Wmp": {
+    "id": "-MTx6jpZ4DI43FkI4Wmp",
+    "cat_id": "5",
+    "question": "In what year did Thurgood Marshall retire from the US Supreme Court? ",
+    "ans_1": "1991",
+    "ans_2": "2012",
+    "ans_3": "1975",
+    "moreInfo": "https://en.wikipedia.org/wiki/Thurgood_Marshall",
+    "point_value": 10
+  },
+  "-MTx6jpZ4DI43FkI4Wmq": {
+    "id": "-MTx6jpZ4DI43FkI4Wmq",
+    "cat_id": "5",
+    "question": "Maynard Jackson became the first Black American mayor of what city? ",
+    "ans_1": "Atlanta",
+    "ans_2": "Memphis",
+    "ans_3": "Detroit",
+    "moreInfo": "https://en.wikipedia.org/wiki/Maynard_Jackson",
+    "point_value": 10
+  },
+  "-MTx6jpZ4DI43FkI4Wmr": {
+    "id": "-MTx6jpZ4DI43FkI4Wmr",
+    "cat_id": "5",
+    "question": "Harold Washington became what city‟s first Black mayor? ",
+    "ans_1": "Chicago",
+    "ans_2": "Atlanta",
+    "ans_3": "Shreveport",
+    "moreInfo": "https://en.wikipedia.org/wiki/Harold_Washington",
+    "point_value": 10
+  },
+  "-MTx6jpZ4DI43FkI4Wms": {
+    "id": "-MTx6jpZ4DI43FkI4Wms",
+    "cat_id": "4",
+    "question": "In what year did the United States abolish slavery? ",
+    "ans_1": "1865",
+    "ans_2": "1750",
+    "ans_3": "1905",
+    "moreInfo": "https://en.wikipedia.org/wiki/Slavery_in_the_United_States",
+    "point_value": 10
+  },
+  "-MTx6jpZ4DI43FkI4Wmt": {
+    "id": "-MTx6jpZ4DI43FkI4Wmt",
+    "cat_id": "4",
+    "question": "How old was Martin Luther King, Jr. when he was assassinated? ",
+    "ans_1": "39",
+    "ans_2": "25",
+    "ans_3": "47",
+    "moreInfo": "https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.",
+    "point_value": 10
+  },
+  "-MTx6jpZ4DI43FkI4Wmu": {
+    "id": "-MTx6jpZ4DI43FkI4Wmu",
+    "cat_id": "4",
+    "question": "How many slaves were freed at the end of the Civil War? ",
+    "ans_1": "4 million",
+    "ans_2": "100,750",
+    "ans_3": "47",
+    "moreInfo": "https://en.wikipedia.org/wiki/Slavery_in_the_United_States",
+    "point_value": 10
+  },
+  "-MTx6jpZ4DI43FkI4Wmv": {
+    "id": "-MTx6jpZ4DI43FkI4Wmv",
+    "cat_id": "4",
+    "question": "Who was “Big Jim” Simpson? ",
+    "ans_1": "A fiddle playing cowboy",
+    "ans_2": "Jazz muscian",
+    "ans_3": "Poet",
+    "moreInfo": "https://www.smithsonianmag.com/history/lesser-known-history-african-american-cowboys-180962144/",
+    "point_value": 10
+  },
+  "-MTx6jpZ4DI43FkI4Wmw": {
+    "id": "-MTx6jpZ4DI43FkI4Wmw",
+    "cat_id": "4",
+    "question": "Who was an early pioneer in Colorado and a conductor of the Underground Railroad? ",
+    "ans_1": "Barney Ford",
+    "ans_2": "Joe Jackson",
+    "ans_3": "Nat Love",
+    "moreInfo": "https://en.wikipedia.org/wiki/Barney_Ford",
+    "point_value": 10
+  },
+  "-MTx6jpZ4DI43FkI4Wmx": {
+    "id": "-MTx6jpZ4DI43FkI4Wmx",
+    "cat_id": "4",
+    "question": "Enacted in 1865 and 1866 and restricting freed slaves from renting or purchasing property, what laws limited the movement of the freed slaves? ",
+    "ans_1": "Black Codes",
+    "ans_2": "Jim Crow",
+    "ans_3": "7th amendment",
+    "moreInfo": "https://en.wikipedia.org/wiki/Black_Codes_(United_States)",
+    "point_value": 10
+  },
+  "-MTx6jpZ4DI43FkI4Wmy": {
+    "id": "-MTx6jpZ4DI43FkI4Wmy",
+    "cat_id": "4",
+    "question": "What was Marcus Garvey‟s nickname? ",
+    "ans_1": "Black Moses",
+    "ans_2": "Big Meech",
+    "ans_3": "Zeus",
+    "moreInfo": "https://en.wikipedia.org/wiki/Marcus_Garvey",
+    "point_value": 10
+  },
+  "-MTx6jpZ4DI43FkI4Wmz": {
+    "id": "-MTx6jpZ4DI43FkI4Wmz",
+    "cat_id": "4",
+    "question": "In what city is the Crispus Attucks Monument located? ",
+    "ans_1": "Boston",
+    "ans_2": "Newport",
+    "ans_3": "Portsmouth",
+    "moreInfo": "https://en.wikipedia.org/wiki/Crispus_Attucks",
+    "point_value": 10
+  },
+  "-MTx6jpZ4DI43FkI4Wza": {
+    "id": "-MTx6jpZ4DI43FkI4Wza",
+    "cat_id": "3",
+    "question": "What hit song made Ella Fitzgerald a national celebrity at the age of 20? ",
+    "ans_1": "A Tisket, A Tasket",
+    "ans_2": "Lemonade",
+    "ans_3": "Big Boy Blue",
+    "moreInfo": "https://en.wikipedia.org/wiki/Ella_Fitzgerald",
+    "point_value": 10
+  },
+  "-MTx6jpZ4DI43FkI4Wzb": {
+    "id": "-MTx6jpZ4DI43FkI4Wzb",
+    "cat_id": "3",
+    "question": "Well-known Jamaican reggae artist Bob Marley was inducted in the Rock and Roll Hall of Fame in what year? ",
+    "ans_1": "1994",
+    "ans_2": "1945",
+    "ans_3": "2001",
+    "moreInfo": "https://en.wikipedia.org/wiki/Bob_Marley",
+    "point_value": 10
+  },
+  "-MTx6jpZ4DI43FkI4Wzc": {
+    "id": "-MTx6jpZ4DI43FkI4Wzc",
+    "cat_id": "3",
+    "question": "How many black artists were inducted into the Rock and RollHall of Fame in 1987? ",
+    "ans_1": "12",
+    "ans_2": "5",
+    "ans_3": "43",
+    "moreInfo": "https://en.wikipedia.org/wiki/Rock_and_Roll_Hall_of_Fame",
+    "point_value": 10
+  },
+  "-MTx6jpZ4DI43FkI4Wzd": {
+    "id": "-MTx6jpZ4DI43FkI4Wzd",
+    "cat_id": "3",
+    "question": "What was the amount of the first royalty check for Berry Gordy Jr., founder of Motown Records? ",
+    "ans_1": "$3.40",
+    "ans_2": "$55",
+    "ans_3": "$12.40",
+    "moreInfo": "https://en.wikipedia.org/wiki/Berry_Gordy",
+    "point_value": 10
+  },
+  "-MTx6jpZ4DI43FkI4Wze": {
+    "id": "-MTx6jpZ4DI43FkI4Wze",
+    "cat_id": "3",
+    "question": "What was the nickname of renowned jazz musician Charlie Parker? ",
+    "ans_1": "Bird",
+    "ans_2": "Parks",
+    "ans_3": "Slim",
+    "moreInfo": "https://en.wikipedia.org/wiki/Charlie_Parker",
+    "point_value": 10
+  },
+  "-MTx6jpZ4DI43FkI4Wzf": {
+    "id": "-MTx6jpZ4DI43FkI4Wzf",
+    "cat_id": "3",
+    "question": "Who is known as the “Queen of Soul”? ",
+    "ans_1": "Aretha Franklin",
+    "ans_2": "Tina Turner",
+    "ans_3": "Beyonce",
+    "moreInfo": "https://en.wikipedia.org/wiki/Aretha_Franklin",
+    "point_value": 10
+  },
+  "-MTx6jpZ4DI43FkI4Wzg": {
+    "id": "-MTx6jpZ4DI43FkI4Wzg",
+    "cat_id": "3",
+    "question": "Vanessa Bell appeared on what soap opera? ",
+    "ans_1": "All My Children",
+    "ans_2": "Dynasty",
+    "ans_3": "As the World Turns",
+    "moreInfo": "https://en.wikipedia.org/wiki/Vanessa_Bell_Calloway#Television",
+    "point_value": 10
+  },
+  "-MTx6jpZ4DI43FkI4Wzh": {
+    "id": "-MTx6jpZ4DI43FkI4Wzh",
+    "cat_id": "2",
+    "question": "Who was the first Black president of the school board in Atlanta, Georgia? ",
+    "ans_1": "Benjamin E. Mays",
+    "ans_2": "Darryl Raynard Richardson III",
+    "ans_3": "Thomas DeCarlo Callaway",
+    "moreInfo": "https://en.wikipedia.org/wiki/Benjamin_Mays",
+    "point_value": 10
+  },
+  "-MTx6jpZ4DI43FkI4Wzi": {
+    "id": "-MTx6jpZ4DI43FkI4Wzi",
+    "cat_id": "2",
+    "question": "What is the name of the famous Black college in Washington, D.C. where Dr. Charles Drew taught medicine? ",
+    "ans_1": "Howard University",
+    "ans_2": "Tuskegee University",
+    "ans_3": "Morehouse College",
+    "moreInfo": "https://en.wikipedia.org/wiki/Charles_R._Drew",
+    "point_value": 10
+  },
+  "-MTx6jpZ4DI43FkI4Wzj": {
+    "id": "-MTx6jpZ4DI43FkI4Wzj",
+    "cat_id": "2",
+    "question": "What state has the most black institutions of higher learning? ",
+    "ans_1": "Georgia",
+    "ans_2": "Louisiana",
+    "ans_3": "Tennessee",
+    "moreInfo": "https://en.wikipedia.org/wiki/Historically_black_colleges_and_universities",
+    "point_value": 10
+  },
+  "-MTx6jpZ4DI43FkI4Wzk": {
+    "id": "-MTx6jpZ4DI43FkI4Wzk",
+    "cat_id": "2",
+    "question": "Who was the first Black American to graduate from college? ",
+    "ans_1": "John Russwurm",
+    "ans_2": "Toni Morrison",
+    "ans_3": "Langston Hughes",
+    "moreInfo": "https://en.wikipedia.org/wiki/John_Brown_Russwurm",
+    "point_value": 10
+  },
+  "-MTx6jpZ4DI43FkI4Wzl": {
+    "id": "-MTx6jpZ4DI43FkI4Wzl",
+    "cat_id": "2",
+    "question": "In 1865, Fisk University was founded in what city? ",
+    "ans_1": "Nashville, Tennessee",
+    "ans_2": "Memphis, Tennessee",
+    "ans_3": "Chattanooga, Tennessee",
+    "moreInfo": "https://en.wikipedia.org/wiki/Fisk_University",
+    "point_value": 10
+  },
+  "-MTx6jpZ4DI43FkI4Wzm": {
+    "id": "-MTx6jpZ4DI43FkI4Wzm",
+    "cat_id": "2",
+    "question": "From what college did Martin Luther King, Jr. graduate? ",
+    "ans_1": "Morehouse College",
+    "ans_2": "Tuskegee University",
+    "ans_3": "Howard University",
+    "moreInfo": "https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.",
+    "point_value": 10
+  },
+  "-MTx6jpZ4DI43FkI4Wzn": {
+    "id": "-MTx6jpZ4DI43FkI4Wzn",
+    "cat_id": "2",
+    "question": "Who became the first African American female billionaire in 2004? ",
+    "ans_1": "Oprah Winfrey",
+    "ans_2": "Jada Pinkett Smith",
+    "ans_3": "Madam C.J. Walker",
+    "moreInfo": "https://en.wikipedia.org/wiki/Oprah_Winfrey",
+    "point_value": 10
+  },
+  "-MTx6jpZ4DI43FkI4Wzo": {
+    "id": "-MTx6jpZ4DI43FkI4Wzo",
+    "cat_id": "1",
+    "question": "How many operas did the composer Scott Joplin write? ",
+    "ans_1": "2",
+    "ans_2": "0",
+    "ans_3": "21",
+    "moreInfo": "https://en.wikipedia.org/wiki/Scott_Joplin",
+    "point_value": 10
+  },
+  "-MTx6jpZ4DI43FkI4Wzp": {
+    "id": "-MTx6jpZ4DI43FkI4Wzp",
+    "cat_id": "1",
+    "question": "Noted sports editor Edward Clayton was the first editor of what popular magazine? ",
+    "ans_1": "Jet",
+    "ans_2": "ESPN",
+    "ans_3": "Negro Digest",
+    "moreInfo": "https://en.wikipedia.org/wiki/Jet_(magazine)",
+    "point_value": 10
+  },
+  "-MTx6jpZ4DI43FkI4Wzq": {
+    "id": "-MTx6jpZ4DI43FkI4Wzq",
+    "cat_id": "1",
+    "question": "The novel Uncle Tom’s Cabin was published in what year? ",
+    "ans_1": "1852",
+    "ans_2": "1905",
+    "ans_3": "1745",
+    "moreInfo": "https://en.wikipedia.org/wiki/Uncle_Tom%27s_Cabin",
+    "point_value": 10
+  },
+  "-MTx6jpZ4DI43FkI4Wzr": {
+    "id": "-MTx6jpZ4DI43FkI4Wzr",
+    "cat_id": "1",
+    "question": "Who wrote “The Autobiography of Malcolm X”? ",
+    "ans_1": "Alex Haley",
+    "ans_2": "Octavia E. Butler",
+    "ans_3": "Ta-Nehisi Coates",
+    "moreInfo": "https://en.wikipedia.org/wiki/Alex_Haley",
+    "point_value": 10
+  },
+  "-MTx6jpZ4DI43FkI4Wzs": {
+    "id": "-MTx6jpZ4DI43FkI4Wzs",
+    "cat_id": "1",
+    "question": "What Black American artist created the Peanut Man character for Planters Peanuts? ",
+    "ans_1": "Elmer Stoner",
+    "ans_2": "Jacob Lawrence",
+    "ans_3": "Gordon Parks",
+    "moreInfo": "https://en.wikipedia.org/wiki/E._C._Stoner",
+    "point_value": 10
+  },
+  "-MTx6jpZ4DI43FkI4Wzt": {
+    "id": "-MTx6jpZ4DI43FkI4Wzt",
+    "cat_id": "1",
+    "question": "What form of music did Duke Ellington elevate into a serious art form? ",
+    "ans_1": "Jazz",
+    "ans_2": "Rock",
+    "ans_3": "Blues",
+    "moreInfo": "https://en.wikipedia.org/wiki/Duke_Ellington",
+    "point_value": 10
+  },
+  "-MTx6jpZ4DI43FkI4Wzu": {
+    "id": "-MTx6jpZ4DI43FkI4Wzu",
+    "cat_id": "7",
+    "question": "Magic Johnson led the Los Angeles Lakers to how many NBA championships? ",
+    "ans_1": "Five",
+    "ans_2": "Seven",
+    "ans_3": "One",
+    "moreInfo": "https://en.wikipedia.org/wiki/Magic_Johnson",
+    "point_value": 10
+  },
+  "-MTx6jpZ4DI43FkI4Wzv": {
+    "id": "-MTx6jpZ4DI43FkI4Wzv",
+    "cat_id": "7",
+    "question": "Who was the first Black American to lead professional football in rushing? ",
+    "ans_1": "Jim Brown",
+    "ans_2": "Boobie Miles",
+    "ans_3": "O.J. Simpson",
+    "moreInfo": "https://en.wikipedia.org/wiki/Jim_Brown",
+    "point_value": 10
+  },
+  "-MTx6jpZ4DI43FkI4Wzw": {
+    "id": "-MTx6jpZ4DI43FkI4Wzw",
+    "cat_id": "7",
+    "question": "What professional sport did Lee Elder play? ",
+    "ans_1": "Golf",
+    "ans_2": "Basketball",
+    "ans_3": "Badminton",
+    "moreInfo": "https://en.wikipedia.org/wiki/Lee_Elder",
+    "point_value": 10
+  },
+  "-MTx6jpZ4DI43FkI4Wzx": {
+    "id": "-MTx6jpZ4DI43FkI4Wzx",
+    "cat_id": "6",
+    "question": "Who is explorer Matthew Henson buried next to? ",
+    "ans_1": "Admiral Robert E. Peary",
+    "ans_2": "Arnold Palmer",
+    "ans_3": "Emmett Till",
+    "moreInfo": "https://en.wikipedia.org/wiki/Matthew_Henson",
+    "point_value": 10
+  },
+  "-MTx6jpZ4DI43FkI4Wzy": {
+    "id": "-MTx6jpZ4DI43FkI4Wzy",
+    "cat_id": "6",
+    "question": "Who predicted the eclipse on the sun in 1789? ",
+    "ans_1": "Benjamin Banneker",
+    "ans_2": "James Derham",
+    "ans_3": "Jupiter Hammon",
+    "moreInfo": "https://en.wikipedia.org/wiki/Benjamin_Banneker",
+    "point_value": 10
+  },
+  "-MTx6jpZ4DI43FkI4Wzz": {
+    "id": "-MTx6jpZ4DI43FkI4Wzz",
+    "cat_id": "5",
+    "question": "Who was the first Black American mayor of Detroit? ",
+    "ans_1": "Coleman Young",
+    "ans_2": "Kwame Kilpatrick",
+    "ans_3": "Kenneth Cockrel Jr.",
+    "moreInfo": "https://en.wikipedia.org/wiki/Coleman_Young",
+    "point_value": 10
   }
 }
