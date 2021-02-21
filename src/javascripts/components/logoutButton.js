@@ -1,10 +1,11 @@
+/* eslint import/no-cycle: [0, { ignoreExternal: true }] */
 import firebase from 'firebase/app';
 import 'firebase/auth';
+import domClickEvents from '../events/domEvents';
 
 const signMeOut = () => {
-  console.log('clicked');
+  document.querySelector('body').removeEventListener('click', domClickEvents);
   firebase.auth().signOut();
-  document.querySelector('#nav-bar').innerHTML = '';
 };
 
 const logoutButton = () => {

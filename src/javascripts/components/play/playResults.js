@@ -1,4 +1,4 @@
-import firebase from 'firebase';
+import firebase from 'firebase/app';
 import { getQuizData } from '../../helpers/data/currentQuizData';
 import { postScore } from '../../helpers/data/scoreData';
 
