@@ -15,6 +15,11 @@ const updateAnswerInfo = (questions) => questions.map((question) => {
 });
 
 const playIntro = (categoryId) => {
+  document.querySelector('#play-body').innerHTML = `
+  <div class="play-loader spinner-border text-light" role="status">
+    <span class="sr-only">Loading...</span>
+  </div>`;
+
   const qPromise = getQuestions(categoryId).then((resp) => arrayShuffler(resp).slice(0, 5));
   const catPromise = getCategory(categoryId);
 
