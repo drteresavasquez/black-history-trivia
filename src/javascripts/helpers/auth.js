@@ -5,7 +5,7 @@ import domEvents from '../events/domEvents';
 import learnPlay from '../views/learnPlay';
 import loginScreen from '../views/loginScreen';
 import firebaseConfig from './apiKeys';
-import userData from './data/userData';
+import { userData } from './data/userData';
 
 const checkLoginStatus = () => {
   firebase.initializeApp(firebaseConfig);

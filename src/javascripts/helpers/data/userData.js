@@ -3,6 +3,12 @@ import firebaseConfig from '../apiKeys';
 
 const dbUrl = firebaseConfig.databaseURL;
 
+const getUsers = () => new Promise((resolve, reject) => {
+  axios.get(`${dbUrl}/users.json`)
+    .then((response) => resolve(Object.values(response.data)))
+    .catch((error) => reject(error));
+});
+
 const userData = (user) => new Promise((resolve, reject) => {
   axios.get(`${dbUrl}/users.json?orderBy="uid"&equalTo="${user.uid}"`)
     .then((response) => {
@@ -23,4 +29,4 @@ const userData = (user) => new Promise((resolve, reject) => {
     });
 });
 
-export default userData;
+export { userData, getUsers };
