@@ -38,3 +38,29 @@ body {
 hr {
   background-color: gray;
 }
+
+// profile section
+.user-card{
+  margin: auto;
+}
+.user-img{
+  width: 55%;
+  margin: auto;
+  border: 5px solid #9198e5;
+  border-radius: 49%;
+  -webkit-border-radius: 49%;
+}
+
+.user-body{
+  margin: 1em;
+}
+.name{
+  font-weight: 500;
+}
+.email{
+  margin-top: -1em;
+}
+
+.score-title{
+  font-weight: bold;
+}
