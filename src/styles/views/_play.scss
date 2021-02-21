@@ -39,10 +39,26 @@
     }
   }
 
-
   .play-intro-image {
     img {
       width: 50%;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      margin-bottom: -15px;
+      margin-top: 35px;
+
+      @media only screen and (max-width: 600px) {
+        width: 90%;
+      }
+    }
+  }
+  .play-question-image {
+    img {
+      width: 50%;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      margin-top: -35px;
+      z-index: -100;
 
       @media only screen and (max-width: 600px) {
         width: 90%;

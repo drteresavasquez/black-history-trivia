@@ -6,7 +6,8 @@ const playQuestion = () => {
 
   if (question) {
     document.querySelector('#play-body').innerHTML = `<div class="play-question">
-    <div class="play-question-count">Question ${index + 1} / ${allQuestions.length}</div>
+    <h3 class="play-question-count text-white">Question ${index + 1} / ${allQuestions.length}</h3>
+    <div class="play-question-image"><img src="https://firebasestorage.googleapis.com/v0/b/bhm-trivia-app.appspot.com/o/category_images%2Fcat-1.jpg?alt=media&token=05f77b38-720a-454d-a716-cf1d07d8a3ad" alt="image"></div>
     <div class="play-question-text">${question.question}</div>
     <div class="play-question-answers-container">
       <div class="play-question-answer custom-control custom-radio">
