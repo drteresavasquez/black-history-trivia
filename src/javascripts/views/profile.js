@@ -6,12 +6,12 @@ import iconUrl from '../helpers/iconUrl';
 
 const profile = () => {
   document.querySelector('#app').innerHTML = `<div class="d-flex button-row">
-  <div id="back-btn">
-  <i class="fas fa-chevron-left"></i> BACK
-  </div>
-  <div id="logout-button">
-  </div>
-  </div>`;
+    <div id="back-btn">
+      <i class="fas fa-chevron-left"></i> BACK
+    </div>
+    <div id="logout-button">
+    </div>
+    </div>`;
   loader('#app', true);
 
   const user = firebase.auth().currentUser;
