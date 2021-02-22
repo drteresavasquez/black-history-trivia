@@ -16,7 +16,7 @@
   border: none !important;
   margin: auto;
   margin-top: 150px;
-  background-color: #4d2d48 !important;
+  background-color: $main-purple !important;
   color: white !important;
   font-size: 24px !important;
   font-family: $roboto !important;
@@ -53,13 +53,13 @@
     color: white;
   
     &:hover {
-      background-color: #4d2d48 !important;
+      background-color: $main-purple !important;
       color: white ;
     }
   }
 
   .selected-time-option {
-    background-color: #4d2d48 !important;
+    background-color: $main-purple !important;
     color: white ;
     border: 5px solid white;
   }

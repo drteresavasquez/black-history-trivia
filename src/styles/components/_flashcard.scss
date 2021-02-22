@@ -33,7 +33,7 @@
   display: flex;
   align-items: center;
   border-radius: 10px;
-  background: #4d2d48;
+  background: $main-purple;
   padding: 20px;
   border: 2px solid white;
 }
@@ -48,7 +48,7 @@
   color: black !important;
   transform: rotateY(180deg);
   padding: 20px;
-  border: 2px solid #4d2d48;
+  border: 2px solid $main-purple;
 
   a {
     text-decoration: none;
