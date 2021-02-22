@@ -6,3 +6,4 @@ dist/
 build/
 .env
 .firebase/
+json_sample_data/
