@@ -3,7 +3,7 @@ import crown from '../../assets/crown.png';
 import { removeLoader } from './loader';
 
 const rankToggle = (scores) => {
-  const topThreeUsers = scores.splice(0, 3);
+  const topThreeUsers = scores.slice(0, 3);
   document.querySelector('#leaderboard-body').innerHTML = `<div class="top-three">
     <div class="third-place">
       <div class="number">3</div>
@@ -45,7 +45,7 @@ const rankToggle = (scores) => {
 
   const removeZeros = scores.filter((user) => user.score > 0);
   // Show top 10 scores
-  removeZeros.splice(0, 7).forEach((user, index) => {
+  removeZeros.splice(3, 7).forEach((user, index) => {
     $('tbody').append(`<tr class="${userScore.uid === user.uid ? 'user-row-score' : ''}">
       <th scope="row">${index + 4}</th>
       <td><img class="table-image" src="${user.image}" alt="${user.displayName}"></td>
