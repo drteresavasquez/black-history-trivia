@@ -3,25 +3,28 @@ import crown from '../../assets/crown.png';
 import { removeLoader } from './loader';
 
 const rankToggle = (scores) => {
+  // USER RANK INFO
+  const userScore = scores.find((score) => score.uid === firebase.auth().currentUser.uid);
+  const userRank = scores.indexOf(userScore);
+
   const topThreeUsers = scores.slice(0, 3);
   document.querySelector('#leaderboard-body').innerHTML = `<div class="top-three">
     <div class="third-place">
       <div class="number">3</div>
-      <img src="${topThreeUsers[2].image}" alt="${topThreeUsers[2].displayName}">
-      ${topThreeUsers[2].displayName.split(' ')[0]}
+      <img src="${topThreeUsers[2].image}" alt="${topThreeUsers[2].displayName}">${userScore.uid === topThreeUsers[2].uid ? '<span class="you-in-top-three">YOU</span>' : topThreeUsers[2].displayName.split(' ')[0]}
       <span class="score"> ${topThreeUsers[2].score}</span>
     </div>
     <div class="first-place">
     <div class="number">1</div>
       <img class="crown" src="${crown}" alt="crown">
       <img src="${topThreeUsers[0].image}" alt="${topThreeUsers[0].displayName}">
-      ${topThreeUsers[0].displayName.split(' ')[0]}
+      ${userScore.uid === topThreeUsers[0].uid ? '<span class="you-in-top-three">YOU</span>' : topThreeUsers[0].displayName.split(' ')[0]}
       <span class="score"> ${topThreeUsers[0].score}</span>
     </div>
     <div class="second-place">
     <div class="number">2</div>
       <img src="${topThreeUsers[1].image}" alt="${topThreeUsers[1].displayName}">
-      ${topThreeUsers[1].displayName.split(' ')[0]}
+      ${userScore.uid === topThreeUsers[1].uid ? '<span class="you-in-top-three">YOU</span>' : topThreeUsers[1].displayName.split(' ')[0]}
       <span class="score"> ${topThreeUsers[1].score}</span>
     </div>
   </div>`;
@@ -39,9 +42,6 @@ const rankToggle = (scores) => {
 
   </tbody>
 </table>`;
-  // USER RANK INFO
-  const userScore = scores.find((score) => score.uid === firebase.auth().currentUser.uid);
-  const userRank = scores.indexOf(userScore);
 
   const removeZeros = scores.filter((user) => user.score > 0);
   // Show top 10 scores
