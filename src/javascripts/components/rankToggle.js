@@ -43,8 +43,9 @@ const rankToggle = (scores) => {
   const userScore = scores.find((score) => score.uid === firebase.auth().currentUser.uid);
   const userRank = scores.indexOf(userScore);
 
+  const removeZeros = scores.filter((user) => user.score > 0);
   // Show top 10 scores
-  scores.splice(0, 7).forEach((user, index) => {
+  removeZeros.splice(0, 7).forEach((user, index) => {
     $('tbody').append(`<tr class="${userScore.uid === user.uid ? 'user-row-score' : ''}">
       <th scope="row">${index + 4}</th>
       <td><img class="table-image" src="${user.image}" alt="${user.displayName}"></td>
