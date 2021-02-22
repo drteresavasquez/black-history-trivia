@@ -43,7 +43,8 @@ const getUserAllTimeRank = () => new Promise((resolve, reject) => {
       mergedArray.push({ ...user, score });
     });
     const sorted = mergedArray.sort((a, b) => b.score - a.score);
-    resolve(sorted);
+    const removeZeros = sorted.filter((user) => user.score > 0);
+    resolve(removeZeros);
   }).catch((error) => reject(error));
 });
 
@@ -56,7 +57,8 @@ const getUserTodayRank = () => new Promise((resolve, reject) => {
       mergedArray.push({ ...user, score });
     });
     const sorted = mergedArray.sort((a, b) => b.score - a.score);
-    resolve(sorted);
+    const removeZeros = sorted.filter((user) => user.score > 0);
+    resolve(removeZeros);
   }).catch((error) => reject(error));
 });
 
@@ -69,7 +71,8 @@ const getUserWeekRank = () => new Promise((resolve, reject) => {
       mergedArray.push({ ...user, score });
     });
     const sorted = mergedArray.sort((a, b) => b.score - a.score);
-    resolve(sorted);
+    const removeZeros = sorted.filter((user) => user.score > 0);
+    resolve(removeZeros);
   }).catch((error) => reject(error));
 });
 
