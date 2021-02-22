@@ -1,8 +1,11 @@
-<center><h1>Black History Trivia</h1>
+<h1>Black History Trivia</h1>
+  
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d163e711-68ed-429d-92ee-3f7e005366e5/deploy-status)](https://app.netlify.com/sites/blackhistorytrivia/deploys)
+
 
 <p>Learn about Black History while playing against others to get the top score.</p>
 
-<a href="https://blackhistorytrivia.netlify.app" target="_blank"><img src="https://firebasestorage.googleapis.com/v0/b/bhm-trivia-app.appspot.com/o/screenshots%2Fplaynowbtn.png?alt=media&token=16c2c897-1f60-41af-a8d1-08a28def9e76" style="width: 200px;"></a></center>
+<a href="https://blackhistorytrivia.netlify.app" target="_blank"><img src="https://firebasestorage.googleapis.com/v0/b/bhm-trivia-app.appspot.com/o/screenshots%2Fplaynowbtn.png?alt=media&token=16c2c897-1f60-41af-a8d1-08a28def9e76" style="width: 200px;"></a>
 
 ## Links
 - [Slide Deck](https://docs.google.com/presentation/d/1KHW2fGurqugL-4sTWbJjFto4mX1PHoeJl-8pRNOkESI/edit?usp=sharing)
