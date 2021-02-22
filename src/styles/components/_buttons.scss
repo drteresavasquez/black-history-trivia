@@ -38,3 +38,29 @@
     align-self: center;
   }
 }
+
+#score-toggle {
+  margin-top: 50px;
+  width: 60%;
+
+  @media only screen and (max-width: 600px) {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .score-btn-group {
+    background-color: rgba(77, 45, 72, .4) !important;
+    color: white;
+  
+    &:hover {
+      background-color: #4d2d48 !important;
+      color: white ;
+    }
+  }
+
+  .selected-time-option {
+    background-color: #4d2d48 !important;
+    color: white ;
+    border: 5px solid white;
+  }
+}

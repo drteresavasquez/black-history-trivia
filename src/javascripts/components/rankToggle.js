@@ -1,10 +1,10 @@
-import { getUserRank } from '../helpers/data/scoreData';
+import firebase from 'firebase/app';
 import crown from '../../assets/crown.png';
 import { removeLoader } from './loader';
 
-const rank = () => getUserRank().then((scores) => {
+const rankToggle = (scores) => {
   const topThreeUsers = scores.splice(0, 3);
-  document.querySelector('#app').innerHTML += `<div class="top-three">
+  document.querySelector('#leaderboard-body').innerHTML = `<div class="top-three">
     <div class="third-place">
       <div class="number">3</div>
       <img src="${topThreeUsers[2].image}" alt="${topThreeUsers[2].displayName}">
@@ -26,7 +26,7 @@ const rank = () => getUserRank().then((scores) => {
     </div>
   </div>`;
 
-  document.querySelector('#app').innerHTML += `<table class="mt-5 table table-hover table-dark">
+  document.querySelector('#leaderboard-body').innerHTML += `<table class="mt-5 mb-5 table table-hover table-dark">
   <thead>
     <tr>
       <th scope="col">Rank</th>
@@ -39,17 +39,30 @@ const rank = () => getUserRank().then((scores) => {
 
   </tbody>
 </table>`;
+  // USER RANK INFO
+  const userScore = scores.find((score) => score.uid === firebase.auth().currentUser.uid);
+  const userRank = scores.indexOf(userScore);
 
-  scores.forEach((user, index) => {
-    $('tbody').append(`<tr>
+  // Show top 10 scores
+  scores.splice(0, 7).forEach((user, index) => {
+    $('tbody').append(`<tr class="${userScore.uid === user.uid ? 'user-row-score' : ''}">
       <th scope="row">${index + 4}</th>
       <td><img class="table-image" src="${user.image}" alt="${user.displayName}"></td>
-      <td>${user.displayName.split(' ')[0]}</td>
+      <td>${userScore.uid === user.uid ? '<b>YOU</b>' : user.displayName.split(' ')[0]}</td>
       <td>${user.score}</td>
     </tr>`);
   });
 
-  removeLoader();
-});
+  if (userRank + 1 > 10) {
+    $('tbody').append(`<tr class="user-row-score">
+      <th scope="row">${userRank + 1}</th>
+      <td><img class="table-image" src="${userScore.image}" alt="${userScore.displayName}"></td>
+      <td><b>YOU</b></td>
+      <td>${userScore.score}</td>
+    </tr>`);
+  }
 
-export default rank;
+  removeLoader();
+};
+
+export default rankToggle;
