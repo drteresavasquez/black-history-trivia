@@ -1,5 +1,5 @@
 .scene {
-  max-width: 400px;
+  max-width: 500px;
   perspective: 600px;
   margin: auto;
 }
@@ -33,8 +33,9 @@
   display: flex;
   align-items: center;
   border-radius: 10px;
-  background: #222;
+  background: #4d2d48;
   padding: 20px;
+  border: 2px solid white;
 }
 
 .flashcard__face--back {
@@ -47,6 +48,7 @@
   color: black !important;
   transform: rotateY(180deg);
   padding: 20px;
+  border: 2px solid #4d2d48;
 
   a {
     text-decoration: none;

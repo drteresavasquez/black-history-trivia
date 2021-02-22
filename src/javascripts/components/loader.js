@@ -1,4 +1,4 @@
-const loader = (selecctorId, append = false) => {
+const loader = (selectorId, append = false) => {
   const domString = `
   <div id="loader-component" class="loader-overlay">
     <div class="loader-content">
@@ -8,13 +8,16 @@ const loader = (selecctorId, append = false) => {
     </div>
   </div>`;
   if (append) {
-    document.querySelector(selecctorId).innerHTML += domString;
+    document.querySelector(selectorId).innerHTML += domString;
   } else {
-    document.querySelector(selecctorId).innerHTML = domString;
+    document.querySelector(selectorId).innerHTML = domString;
   }
 };
 const removeLoader = () => {
-  document.querySelector('#loader-component').remove();
+  const loaderExists = document.querySelector('#loader-component');
+  if (loaderExists) {
+    loaderExists.remove();
+  }
 };
 
 export { loader, removeLoader };
